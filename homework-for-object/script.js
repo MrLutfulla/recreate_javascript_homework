@@ -19,3 +19,31 @@ console.log(arr.sort() )
 // sort(function(a, b) {
 //     return a - b
 // });
+
+
+// javascript dasturlash tilida obyektlar denamik xisoblanadi va 
+// obyekntni funksiya orqali yaasashning ikki xil usuli mavjud. ular
+// factory function va constructor function 
+
+// foctory function 
+function createCircle(radius) { //camel case da yoziladi factory funksiyasini nomlashda
+    return {
+        radius,  //bu radius : radius ga teng joy tejasxh uchun ishlatiladi
+    draw() {    //bu funksiyani qisqartish uchun ishlatiladi  draw : function()}
+        console.log('doira');
+    }
+    };
+}
+
+// pascal case
+// Constructor function
+function Circle(radius, x) {
+    this.radius = radius;
+    this.x = x
+    this.draw = function () {
+        console.log('doira')
+    }
+}
+
+let doira = new Circle(2, 2);
+console.log(doira)
