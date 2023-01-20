@@ -14,8 +14,9 @@ console.log(arr.sort() )
 // sort funksiyasini odatda sartarovka qilish uchun ishlatiladi
 // alfavit buyisha sartarovka qiladi. numberlarni sartarovkasida ishlatiladi ammo faqat birinchi raqamga qarab sartarovka qilib yuboradi.
 
-//  bu ananim funksiya deb ataladi
+// 
 // endi buni tug'irlash uchun bir ish qilamiz
+//  bu ananim funksiya deb ataladi
 // sort(function(a, b) {
 //     return a - b
 // });
