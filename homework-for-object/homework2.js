@@ -88,6 +88,12 @@ for( let j = 1; j < n+1; j++){
 
 	bos = +database[0]['age1'];
 	hliq = +database[1]['age1'];
+
+	if(bos > hliq){
+		console.log(database[0].name1 +'yoshi katta')
+	}else{
+		console.log(database[1].name1 +'yoshi katta')
+	}
 	console.log('yoshlar yig\'indisi' + (bos + hliq) + ' ga teng')
 
 
