@@ -8,7 +8,7 @@ let smth = "Lutfulla";
 
 
 let strr = 'kelganimda uyda bul'
-console.log(strr.split('').sort())
+console.log(strr.split('').sort().reverse().join(''))
 console.log(arr.sort() )
 
 // sort funksiyasini odatda sartarovka qilish uchun ishlatiladi
@@ -38,13 +38,13 @@ function createCircle(radius) { //camel case da yoziladi factory funksiyasini no
 
 // pascal case
 // Constructor function
-function Circle(radius, x) {
-    this.radius = radius;
-    this.x = x
-    this.draw = function () {
-        console.log('doira')
-    }
-}
+// function Circle(radius, x) {
+//     this.radius = radius;
+//     this.x = x
+//     this.draw = function () {
+//         console.log('doira')
+//     }
+// }
 
-let doira = new Circle(2, 2);
-console.log(doira)
+// let doira = new Circle(2, 2);
+// console.log(doira)

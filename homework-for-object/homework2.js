@@ -6,43 +6,43 @@ birnchi o'zgaruvchini kiritamiz u bilan qilinadigan amalni tanlaymiz va ikkinchi
 //     expres2 = +prompt('ikkinchi operatorni kiriting');
 
 
-if((String(expres1) === 'NaN')||(String(expres2) === 'NaN')){
-	console.log('iltimos son kiriting')
-// agar operand teng bulmasa + yoki op =bulmasa - yoki =bulmasa *yoki = bulmasa /  
-}else if(operand !== '+' && operand !== '*' && operand !== '/' && operand !== '-') {
-    console.log('siz boshqa narsa kiritdingiz qayta kiriting');
+// if((String(expres1) === 'NaN')||(String(expres2) === 'NaN')){
+// 	console.log('iltimos son kiriting')
+// // agar operand teng bulmasa + yoki op =bulmasa - yoki =bulmasa *yoki = bulmasa /  
+// }else if(operand !== '+' && operand !== '*' && operand !== '/' && operand !== '-') {
+//     console.log('siz boshqa narsa kiritdingiz qayta kiriting');
     
-}else if(operand == '/' || '*' || '+' || '-'){
+// }else if(operand == '/' || '*' || '+' || '-'){
     
-    if(operand == '/'){
-        console.log(expres1 / expres2);
-    }else if(operand == '+'){
-        console.log(expres1 + expres2);
-    }else if(operand == '-'){
-        console.log(expres1 - expres2);
-    }else if(operand == '*'){
-        console.log(expres1 * expres2);
-    }
+//     if(operand == '/'){
+//         console.log(expres1 / expres2);
+//     }else if(operand == '+'){
+//         console.log(expres1 + expres2);
+//     }else if(operand == '-'){
+//         console.log(expres1 - expres2);
+//     }else if(operand == '*'){
+//         console.log(expres1 * expres2);
+//     }
 
     
-}
+// }
 
-switch(operand){
-	case "+":
-		console.log(expres1 + expres2)
-		break
-	case "-":
-		console.log(expres1 - expres2)
-		break
-	case "*":
-		console.log(expres1 * expres2)
-		break
-        case "/":
-		console.log(expres1 / expres2)
-		break
-	default:
-		console.log('error')
-}
+// switch(operand){
+// 	case "+":
+// 		console.log(expres1 + expres2)
+// 		break
+// 	case "-":
+// 		console.log(expres1 - expres2)
+// 		break
+// 	case "*":
+// 		console.log(expres1 * expres2)
+// 		break
+//         case "/":
+// 		console.log(expres1 / expres2)
+// 		break
+// 	default:
+// 		console.log('error')
+// }
         
 
 
@@ -50,33 +50,29 @@ switch(operand){
 
 
 
-let num = +prompt('necha juftsiz', 1)
- 
-
 let database = [ {	
-	name1: 'Furqat',
+	
 	faml: 'Nomozov',
 	age1: 0  
 	}, 
 	{
-	name1: 'Jasur',
+	
 	faml: "O'roqov",
 	age1: 1
 		}]
 
+let num = +prompt('necha juftsiz', 1)
+ 
 for ( let n = 1; num > n-1; n++){
 
+	for( let i = 1; i < n+1; i++){
+		let obj = database[n - 1]; 
+		obj['name'+ i] = prompt(i + ' obyekt ismingizni kiriting');
+		// obj['faml'+ i] = prompt(i + ' obyekt familyani kiriting');
+		obj['age'+ i] = +prompt(i + ' obyekt yoshingizni kiriting');
+	}
 
-for( let i = 1; i < n+1; i++){
-
-	let obj = database[n - 1]; 
-	obj['name'+ i] = prompt(i + ' obyekt ismingizni kiriting');
-	// obj['faml'+ i] = prompt(i + ' obyekt familyani kiriting');
-	obj['age'+ i] = +prompt(i + ' obyekt yoshingizni kiriting');
-	
-}
-
-for( let j = 1; j < n+1; j++){
+for( let j = 1; j < n-1; j++){
 	let obj2 = database[n]; 
 	obj2['name'+j] = prompt(j + 1 +' tomon ismingizni kiriting');
 	// obj2['faml'+ i] = prompt(i + ' tomon familyani kiriting');
@@ -85,7 +81,7 @@ for( let j = 1; j < n+1; j++){
 }
 
 }
-
+console.log(database)
 	bos = +database[0]['age1'];
 	hliq = +database[1]['age1'];
 
@@ -97,7 +93,15 @@ for( let j = 1; j < n+1; j++){
 	console.log('yoshlar yig\'indisi' + (bos + hliq) + ' ga teng')
 
 
+let names1 = {
 
+}
+let names2 = {
+
+}
+names1.age1 = 54//prompt('yoshingizni kiriting')
+names2.age2 = 45//prompt('yoshingizni kiriting')
+console.log(names1.age1 + names2.age2)
 
 
 
