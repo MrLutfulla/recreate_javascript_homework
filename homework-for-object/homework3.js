@@ -41,7 +41,7 @@ findAnyThing(data)
  
 /*obyektdagi kerakli ismni topib beradi va yoshini ko'rsatadi*/    
 function findLike(arr, like){
-
+/*bu yerga array berasiz ichida object bo'lishi kerak. for example arr = [{name: 'anvar'},{name: 'Karim'}]*/
     for(let i = 0; i < arr.length; i++) {
         let str = arr[i].name
         let age = arr[i]['age']
@@ -62,7 +62,7 @@ function findLike(arr, like){
 
 
 
-/*kerakli so'zni topib berish funksiyasi*/
+/*kerakli so'zni topib berish funksiyasi. buyerga siz biron string bersangiz va kerakli jumla ya'ni so'zni yozsangiz topib beradi*/
 function findWord(str, needWord){
     let arr = str.split(' ');
     let result = [];
@@ -70,29 +70,12 @@ function findWord(str, needWord){
         if(arr[i].toLowerCase() === needWord){
             result.push(arr[i], i + ' tartib nomerda turibdi. ') 
         }    
-        
+        //harqanday string to'plamini berishingiz mumkin bu funksiyaga
     }    
     console.log(result.join(' ').toString(),' ', result.length)
 }    
 
 // findWord('hello world hello world hello ', 'hello')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
