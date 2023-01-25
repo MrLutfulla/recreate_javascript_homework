@@ -50,58 +50,58 @@ birnchi o'zgaruvchini kiritamiz u bilan qilinadigan amalni tanlaymiz va ikkinchi
 
 
 
-let database = [ {	
+// let database = [ {	
 	
-	faml: 'Nomozov',
-	age1: 0  
-	}, 
-	{
+// 	faml: 'Nomozov',
+// 	age1: 0  
+// 	}, 
+// 	{
 	
-	faml: "O'roqov",
-	age1: 1
-		}]
+// 	faml: "O'roqov",
+// 	age1: 1
+// 		}]
 
-let num = +prompt('necha juftsiz', 1)
+// let num = +prompt('necha juftsiz', 1)
  
-for ( let n = 1; num > n-1; n++){
+// for ( let n = 1; num > n-1; n++){
 
-	for( let i = 1; i < n+1; i++){
-		let obj = database[n - 1]; 
-		obj['name'+ i] = prompt(i + ' obyekt ismingizni kiriting');
-		// obj['faml'+ i] = prompt(i + ' obyekt familyani kiriting');
-		obj['age'+ i] = +prompt(i + ' obyekt yoshingizni kiriting');
-	}
+// 	for( let i = 1; i < n+1; i++){
+// 		let obj = database[n - 1]; 
+// 		obj['name'+ i] = prompt(i + ' obyekt ismingizni kiriting');
+// 		// obj['faml'+ i] = prompt(i + ' obyekt familyani kiriting');
+// 		obj['age'+ i] = +prompt(i + ' obyekt yoshingizni kiriting');
+// 	}
 
-for( let j = 1; j < n-1; j++){
-	let obj2 = database[n]; 
-	obj2['name'+j] = prompt(j + 1 +' tomon ismingizni kiriting');
-	// obj2['faml'+ i] = prompt(i + ' tomon familyani kiriting');
-	obj2['age'+j] = +prompt(j + 1 +' tomon yoshingizni kiriting')
+// for( let j = 1; j < n-1; j++){
+// 	let obj2 = database[n]; 
+// 	obj2['name'+j] = prompt(j + 1 +' tomon ismingizni kiriting');
+// 	// obj2['faml'+ i] = prompt(i + ' tomon familyani kiriting');
+// 	obj2['age'+j] = +prompt(j + 1 +' tomon yoshingizni kiriting')
 	
-}
+// }
 
-}
-console.log(database)
-	bos = +database[0]['age1'];
-	hliq = +database[1]['age1'];
+// }
+// console.log(database)
+// 	bos = +database[0]['age1'];
+// 	hliq = +database[1]['age1'];
 
-	if(bos > hliq){
-		console.log(database[0].name1 +'yoshi katta')
-	}else{
-		console.log(database[1].name1 +'yoshi katta')
-	}
-	console.log('yoshlar yig\'indisi' + (bos + hliq) + ' ga teng')
+// 	if(bos > hliq){
+// 		console.log(database[0].name1 +'yoshi katta')
+// 	}else{
+// 		console.log(database[1].name1 +'yoshi katta')
+// 	}
+// 	console.log('yoshlar yig\'indisi' + (bos + hliq) + ' ga teng')
 
 
-let names1 = {
+// let names1 = {
 
-}
-let names2 = {
+// }
+// let names2 = {
 
-}
-names1.age1 = 54//prompt('yoshingizni kiriting')
-names2.age2 = 45//prompt('yoshingizni kiriting')
-console.log(names1.age1 + names2.age2)
+// }
+// names1.age1 = 54//prompt('yoshingizni kiriting')
+// names2.age2 = 45//prompt('yoshingizni kiriting')
+// console.log(names1.age1 + names2.age2)
 
 
 
@@ -117,19 +117,27 @@ console.log(names1.age1 + names2.age2)
 // alert(user.name);
  
 
+let infos = {
+	student1 : {
+		name : '' 
+	},
 
-// let user = {
-// 	name: "John",
-// 	sizes: {
-// 	  height: 182,
-// 	  width: 50
-// 	}
-//   };
-  
-//   let clone = Object.assign({}, user);
-  
-//   alert( user.sizes === clone.sizes ); // true, тот же объект
-  
-//   // user и clone обладают общим свойством sizes
-//   user.sizes.width++;       // изменяем свойства в первом объекте
-//   alert(clone.sizes.width)
+	student2 : {
+		age: 1,
+        name : ''
+	},
+	student3: {
+        name: ''
+	}
+}
+
+
+function setInfo(obj, name, surname, age, i){
+	// obj['studet'+ i] = obj['student']
+    obj["student" + i]['name'] = name;
+    obj["student" + i]['surname'] = surname;
+    obj["student" + i]['age'] = age;
+}
+
+setInfo(infos,'Lutfulla', 'Murodjonov', 12, 3)
+console.log(infos)
