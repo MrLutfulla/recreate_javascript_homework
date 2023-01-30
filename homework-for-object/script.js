@@ -64,54 +64,55 @@
 
 // repeat(a)
 // function derepeat()
-let str = "holloalaykum";
-console.log(str.charAt())
+// let str = "holloalaykum";
+// console.log(str.charAt())
 
 
 
-function getCardNumber (cardNumber){
+// function getCardNumber (cardNumber){
 
-    if (cardNumber.length > 16 ){
+//     if (cardNumber.length > 16 ){
 
-    console.log('Enter the correct card number');
+//     console.log('Enter the correct card number');
 
-    }else if( cardNumber.length < 16){
+//     }else if( cardNumber.length < 16){
 
-        console.log('The card number is incomplete')
+//         console.log('The card number is incomplete')
 
-        console.log(cardNumber.slice(0, 4 ) +' ' + cardNumber.slice(4, 8) + ' '+ cardNumber.slice(8, 12) + ' ' + cardNumber.slice(12) )
+//         console.log(cardNumber.slice(0, 4 ) +' ' + cardNumber.slice(4, 8) + ' '+ cardNumber.slice(8, 12) + ' ' + cardNumber.slice(12) )
 
     
 
-        console.log('Raqam kiriting siz string kiritdingiz');
+//         console.log('Raqam kiriting siz string kiritdingiz');
 
-    }else{ 
-         if(cardNumber.slice(0, 4 )=='9860'){
+//     }else{ 
+//          if(cardNumber.slice(0, 4 )=='9860'){
 
-             console.log('You have entered the correct card number');
-             console.log('This is Humo card');
+//              console.log('You have entered the correct card number');
+//              console.log('This is Humo card');
 
-            }else if (cardNumber.startsWith("8600")){
+//             }else if (cardNumber.startsWith("8600")){
 
-                console.log('You have entered the correct card number');
-                console.log('This is Uzcard card');
+//                 console.log('You have entered the correct card number');
+//                 console.log('This is Uzcard card');
 
-            }else if (cardNumber.startsWith('8778') || cardNumber.startsWith( '4000')){
+//             }else if (cardNumber.startsWith('8778') || cardNumber.startsWith( '4000')){
                 
-                console.log('You have entered the correct card number');
-                console.log('This is VISA card');
+//                 console.log('You have entered the correct card number');
+//                 console.log('This is VISA card');
 
-            }else{
-                console.log("This card was not found");
-            }
+//             }else{
+//                 console.log("This card was not found");
+//             }
 
-    console.log(cardNumber.slice(0, 4 ) +' ' + '****' + ' '+ '****' + ' ' + cardNumber.slice(12) );
-} 
-}
-str = '986012342621812'
-  getCardNumber(str);
+//     console.log(cardNumber.slice(0, 4 ) +' ' + '****' + ' '+ '****' + ' ' + cardNumber.slice(12) );
+// } 
+// }
+// str = '986012342621812'
+//   getCardNumber(str);
 
 
   
-  let myNumber = 1010101010101010;
-  console.log(myNumber.toString(10))
+//   let myNumber = 1010101010101010;
+//   console.log(myNumber.toString(10))
+for(let i = 0; i <str )
