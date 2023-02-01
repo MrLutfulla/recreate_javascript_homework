@@ -115,4 +115,167 @@
   
 //   let myNumber = 1010101010101010;
 //   console.log(myNumber.toString(10))
-for(let i = 0; i <str )
+
+
+
+// ========================Codwar essue ===================
+
+let result = ''
+
+function alternativeString(str) {
+   
+  for(let i = 0; i < str.length; i++){
+      if(str[i] === str[i].toUpperCase()){
+        result = result + str[i].toLowerCase()
+      }else{
+        result = result + str[i].toUpperCase()
+    }
+    
+  } 
+  
+    console.log(result)
+  }
+
+alternativeString('HellO')
+
+
+String.prototype.toAlternatingCase = function () {
+let str = '';
+  for(let i = 0; i< this.length; i++){
+    if (this[i] == this[i].toLowerCase()){ 
+      str += this[i].toUpperCase();
+    } else {
+      str += this[i].toLowerCase();
+    }
+  }
+  return str;
+}
+
+
+
+let str = 'hldsjvlindfsvnhskxhviskxnb'
+function isIsogram(str){
+  str = str.toLowerCase()
+let result = true;
+    for(let i = 0; i < str.length; i++){
+      for(let j = i + 1; j < str.length; j++){
+        if(str[i] === str[j]){
+          result =  false
+          
+        }
+      }
+        
+    }
+    console.log(result);
+}
+isIsogram(str)
+
+function isIsogram(str){
+  let result = str.toLowerCase().split('').sort()
+  for(let i = 0; i < result.length; i++){
+    if(result[i] === result[i + 1]){
+      return false
+    }
+  }
+  return true
+}
+console.log(isIsogram('helo'));
+
+
+
+
+
+function isIsogram(str){
+  for(let i= 0; i < str.length; i++){
+    if(str.slice( i + 1).includes(str[i])){
+      return false;
+    }
+    
+  }
+  return true
+}
+console.log(isIsogram('helo'))
+
+
+
+
+
+
+console.log(str.charAt(str.indexOf()) == str.charAt(str.lastIndexOf()));
+  
+// const array = [
+//     3, 2, 5, 6, 8, 23, 9, 4, 2, 1, 2, 9, 6, 4, 1, 7, -1, -5, 23, 6, 2, 35, 6, 3, 32, 9, 4, 2, 1, 2, 9,
+//     6, 4, 1, 7, -1, -5, 23, 9, 4, 2, 1, 2, 9, 6, 4, 1, 7, -1, -5, 23, 0,
+//   ];
+  
+//   //  Переменные для замера скорости выполнения сортировок
+//   let startQuickSort;
+//   let finishQuickSort;
+//   let startBubbleSort;
+//   let finishBubbleSort;
+  
+//   //! Быстрая сортировка
+//   console.log('*** Быстрая сортировка ***');
+  
+//   let countQuickSort = 0;
+  
+//   function quickSort(array) {
+//     startQuickSort = Date.now();
+  
+//     if (array.length <= 1) {
+//       return array;
+//     }
+//     let pivotIndex = Math.floor(array.length / 2);
+//     let pivot = array[pivotIndex];
+//     let less = [];
+//     let greater = [];
+//     for (let i = 0; i < array.length; i++) {
+//       countQuickSort += 1;
+//       if (i === pivotIndex) {
+//         continue;
+//       }
+//       if (array[i] < pivot) {
+//         less.push(array[i]);
+//       } else {
+//         greater.push(array[i]);
+//       }
+//     }
+  
+//     finishQuickSort = Date.now();
+//     return [...quickSort(less), pivot, ...quickSort(greater)];
+//   }
+  
+//   console.log(`Отсортированный массив:  ${quickSort(array)}`);
+//   console.log(`Шагов БЫСТРОЙ сортировки: ${countQuickSort}`);
+//   console.log(`Время начала сортировки: ${startQuickSort}`);
+//   console.log(`Время окончания сортировки: ${finishQuickSort}`);
+//   console.log(finishQuickSort - startQuickSort);
+  
+//   //! Пузырьковая сортировка
+//   console.log('*** Пузырьковая сортировка ***');
+  
+//   let countBubbleSort = 0;
+  
+//   function bubbleSort(array) {
+//     startBubbleSort = Date.now();
+  
+//     for (let i = 0; i < array.length; i++) {
+//       for (let j = 0; j < array.length; j++) {
+//         if (array[j + 1] < array[j]) {
+//           let tmp = array[j];
+//           array[j] = array[j + 1];
+//           array[j + 1] = tmp;
+//         }
+//         countBubbleSort += 1;
+//       }
+//     }
+  
+//     finishBubbleSort = Date.now();
+//     return array;
+//   }
+  
+//   console.log(`Отсортированный массив:  ${bubbleSort(array)}`);
+//   console.log(`Шагов ПУЗЫРЬКОВОЙ сортировки: ${countBubbleSort}`);
+//   console.log(`Время начала сортировки: ${startBubbleSort}`);
+//   console.log(`Время окончания сортировки: ${finishBubbleSort}`);
+//   console.log(finishBubbleSort - startBubbleSort);

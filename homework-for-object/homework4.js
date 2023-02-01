@@ -16,16 +16,20 @@
 
 // 2 =================     SQRT     =====================
 
-// let sqrt = (a) => { /*return (a ** (1 / 2)) */  console.log(a ** (1 / 2))  }
-// sqrt(9)
+// let sqrt = (a) => { 
+//     if(a >= 0){ 
+//         /*return (a ** (1 / 2)) */  console.log(a ** (1 / 2))  
+//     }else{  console.log('you enter minus number')   }
+//     }
 
+//     sqrt(-9)
 
 // 3===================  Abs    ==============
-// function abs(anynum){
-//     console.log((anynum ** 2) ** ( 1/ 2))
-//     // return (anynum ** 2) **( 1/ 2)
-// }
-// abs(-49)
+function abs(anynum){
+    console.log((anynum ** 2) ** ( 1/ 2))
+    // return (anynum ** 2) **( 1/ 2)
+}
+// abs(-0.23)
 
 
 // function isMinusPlus(num) {
@@ -43,10 +47,10 @@
 
 // 4===============  floor ==================
 
-// function floor (num) {
+// function floor(num) {
 //     console.log( num - num % 1)
 // }
-
+// floor(-6.25258)
 
 // let calcFloor = ( n ) => {
 //     return n - n % 1
@@ -55,36 +59,45 @@
 
 
 // 5======================= ceil =====================
-// function xalcCeil (num){
-//     return num + (1 - num % 1)
-//     // console.log(calcCeil())
-// }
+function calcCeil (num){
+    if(num >= 0){
+
+        return num + (1 - num % 1)
+       
+    }else {
+        return (num - (num % 1))
+    }
+}
+console.log(calcCeil(-50.08))
 
 
 // // 6===================== round      ================
-// function calcRoud(num){
-//     let tepm = num % 1
-//     if( tepm >= 0.5){
-//         // return num + (1 - num % 1)
-//         console.log(num + (1 - num % 1))
-//     }else{
-//         console.log((num - num % 1))
-//         // return num - (num % 1)
+function calcRoud(num){
+    let tepm = num % 1
+    if(num >= 0 && tepm >= 0.5){        
+         // return num + (1 - num % 1)
+         console.log(num + (1 - num % 1))
 
-//     }
-// }
-// calcRoud(23.0215)
-function round(num){ 
+    }else if(num >= 0 && tepm <= 0.5 ){
+        
+        console.log((num - num % 1))
+        // return num - (num % 1)
+    
+    }else if(tepm < -0.5 && num <= 0  ){
+        console.log(num - 1 - num % 1);
+    }else{
+        console.log(num  - num % 1);
+    }
+}
+calcRoud(-9.90635)
+
+//====== trunc  ======= floor
+function trunc(num){ 
 let a = num.toString().split('.')
 // console.log
 return (Number(a[0])) //.split().join().slice()kerakli joyini qirqib oladi string metodi 'dan gacha'
 
 }
 console.log(round(2.3) + 5.9)
-// function calcTrunc(num){
-//     console.log(num - num % 1)
-//     // return num - num % 1
-//     num.split()
-// }
-// calcTrunc(2.3)
-// console.log(Math.trunc(2.3))
+
+
