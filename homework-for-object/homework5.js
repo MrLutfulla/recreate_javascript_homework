@@ -101,11 +101,23 @@
 
 
   function trim(str, size) {
-      str = str.split('')
-    str.splice(size, str.length, '...')
+
+    str = str.split('')
+    if(str.length <= size) {
+      
+       str.splice(size )
     return str.join('')
+    }else if(str.length > size && size > 3){
+      
+         str.splice(size - 3, str.length+size , '...')
+    return str.join('') 
+    }else{
+      str.splice(size , str.length, '...')
+      return str.join('')
+    }
 }
-console.log(trim('hello world', 5));
+
+console.log(trim('hello world', 2));
 
 
 
