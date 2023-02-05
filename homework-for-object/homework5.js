@@ -50,3 +50,39 @@ for (let i = 0; i < arr.length; i++){
         continue daxam breakda xam qanaqadir shartdan foydalanishimiz kerak mantiqiy uylab qarasa xam*/       
     }
 }
+
+
+function meva(soni, narxi){
+    let a = soni / 2 - soni % 2 / 2
+    for( let i = 0; i < soni; i++){
+        if(soni % 3 === 0){
+        
+        
+/*10 ta olma bulsa ulardan 2 2 2 1 7ta uchun pul tulaydi yani 2 ta olsa 3- si tekinga beriladi
+nechta 2 borligini topish kerak 2 ga bulsak bo'ladi
+
+
+*/
+
+
+    }else{
+        console.log('daas');
+    }
+}
+console.log(a)
+}
+meva(7, 2)
+
+function removeUrlAnchor(url){
+    let result = ""
+    for(let i = 0; i < url.length; i++){
+      if(url[i] === "#") { break }
+      result += url[i]
+    }
+    return result;
+  }
+
+
+function removeUrlAnchor(url){
+    return url.split('#')[0];
+   }
