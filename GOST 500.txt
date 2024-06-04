@@ -1,0 +1,4011 @@
+
+# Chap tashqi bog‘lanish operatori – bu?
++ LEFT OUTER JOIN
+- INNER JOIN
+- FULL OUTER JOIN
+- RIGHT OUTER JOIN
+
+
+
+# SELECT COUNT(id) FROM STUDENT so‘rovi qanday natija qaytaradi?
++ STUDENTlarning sonini
+- STUDENTning maksimal indentifikatorini
+- STUDENTning  oxirgi identifikatorini
+- STUDENTning  birinchi identifikatorini
+
+
+
+# Qaysi operator yordamida «ayiruv» amali bajariladi?
++ MINUS
+- INTERSECT
+- UNION
+- DEVIDE
+
+
+
+# To‘liq tashqi bog‘lanish operatori – bu?
++ FULL OUTER JOIN
+- RIGHT OUTER JOIN
+- LEFT OUTER JOIN
+- INNER JOIN
+
+
+
+# Relyatsion turdagi ma'lumotlar bazasi obyektlari necha o’lchovli jadvalni tashkil etadi?
++ ikki
+- bir
+- uch
+- to'rt
+
+
+
+# SQL tilini tarkibiy qismlariga kiradi: 1) ma’lumotlarni aniqlash tili; 2) ma’lumotlarni manipulyatsiyalash tillari; 3) ma’lumotlarni boshqarish tili; 4) dasturlash tillari?
++ 1, 2, 3
+- 1,2,4
+- 2.3
+- 1,3,4
+
+
+
+# DML komandalarini ko`rsating?
++ INSERT, DELETE, UPDATE, SELECT
+- CREATE, ALTER, DROP
+- INSERT, DROP, UPDATE, SELECT
+- CREATE, ALTER, DELETE
+
+
+
+# DDL komandalarini ko`rsating?
++ CREATE, ALTER, DROP
+- INSERT, DELETE, UPDATE, SELECT
+- INSERT, DROP, UPDATE, SELECT
+- CREATE, ALTER, DELETE
+
+
+
+# UPDATE operatorini qaysi kalit so’zi jadvalni aniq ustunlarini tanlab olish va o’zgartirish imkonini beradi?
++ SET
+- AND va OR
+- SETUP
+- DATE
+
+
+
+# Amaliyotda eng ko’p tarqalgan ma’lumotlar bazalari bu-
++ Relyatsion ma’lumotlar bazalari
+- Ierarxik ma’lumotlar bazalari
+- Tarmoqli ma’lumotlar bazalari
+- Ierarxik va relyasion ma’lumotlar bazalari
+
+
+
+# SELECT operatoridan FROM so‘zidan keyingi yozuv nimani bildiradi?
++ jadvalning nomini
+- ustunning nomini
+- Shartni
+- birlamchi kalitni
+
+
+
+# Select lpad(o'yinchi, 10, '*') from fun. So`rov natijasini tanlang?
++ ****Suarez
+- **********Suarez
+- Suarez***
+- Suarez****
+
+
+
+# Select rpad(uyinchi, 10, '*') from func; So`rov natijasini tanlang?
++ Suarez****
+- ****Suarez
+- Suarez***
+- **********Suarez
+
+
+
+# SELECT Name, Surname FROM talaba; So’rovida  Name, Surname nimani anglatadi?
++ Ustunlar
+- Qatorlar
+- Jadvallar
+- Ob’yektlar
+
+
+
+# SELECT LEFT(`ism`, 5)  FROM `xodimlar`; so`rov natijasini toping?
++ Xodimlar ismining birinchi 5 ta harflarini chiqaradi
+- Xodimlar ismining chap tomonidan chiqaradi
+- Xodimlar ismining 5 ta harfini chiqaradi
+- So`rovda xatolik beradi
+
+
+
+# Select year from test where name='Jonny'); So`rovdagi  year va name nimani anglatadi?
++ Ustunlarni
+- Qatorlarni
+- Jadvallarni
+- Ob’yektlarni
+
+
+
+# Select * from table1 INNER JOIN table2 ON table1.name=table2.name; So`rovdagi "table2" nima?
++ Jadval nomi
+- MB ga bo‘lgan talablar o‘zgaradi
+- Maxsus operator
+- Jadval qatori
+
+
+
+# UNION operatori vazifasi?
++ Jadvallarni birlashtiradi
+- Ikkita jadvalni yoniga qisqartiradi
+- Jadvallarni qisqartiradi
+- Jadvallarni ayiradi
+
+
+
+# Select name, surname from test1 UNION ALL select name, surname from test2;           So`rovdagi "ALL" qanday vazifa bajaradi?
++ Jadvallar birlashtiriladi
+- Barcha ma`lumotlarni filtrlab birlashtiradi
+- Barcha ustunlarni birlashtiradi
+- Barcha jadvallarni birlashtiradi
+
+
+
+# SELECT MIN(yosh), ism, familiya FROM test GROUP By ism, familiya; So`rovidagi MIN(yosh) funksiyasi natijasi?
++ Yosh ustuni minimal qiymatini xisoblash
+- Yosh qatori minimal qiymatini xisoblash
+- Yosh jadvali minimal qiymatini xisoblash
+- min() funksiyasi xato
+
+
+
+# SELECT * FROM test ORDER BY yosh DESC; So`rovdagi "DESC" nima vazifa bajaradi?
++ yosh ustunini teskarisiga saralaydi
+- yosh ustunini saralaydi
+- yosh ustunini guruhlaydi
+- Test jadvalidan ism ustunini ajratib ko`rsatadi
+
+
+
+# DISTINCT operatorining vazifasi nima?
++ ma'lumotlar orasida bir xil ma'lumot bo'lsa, bu ma'lumotni bitta qilib chiqaradi
+- ma'lumotlar orasida bir xil ma'lumot bo'lsa, bu ma'lumotni chiqarmaydi
+- ma'lumotlar orasida bir xil ma'lumot bo'lsa, bu ma'lumotni ikkalasini ham chiqaradi
+- Bunday operator SQLda ishlatilmaydi
+
+
+
+# Select ism, yosh, familiya from test where ism like 'S%'; So`rovdagi "%" nima uchun ishlatiladi?
++ "S"dan keyin simvollar bo`lishi mumkin
+- "S"dan oldin simvollar bo`lishi mumkin
+- "S"dan keyin % bo`lishi mumkin
+- "S%" simvollar bo`lishi mumkin
+
+
+
+# Jadval ustunidagi yig‘indi qiymati qanday hisoblanadi?
++ SUM funksiyasi yordamida
+- COUNT funksiyasi yordamida
+- MIN funksiyasi yordamida
+- MAX funksiyasi yordamida
+
+
+
+# O‘ng tashqi bog‘lanish operatori  – bu?
++ RIGHT OUTER  JOIN
+- LEFT OUTER JOIN
+- INNER JOIN
+- FULL OUTER JOIN
+
+
+
+# JOIN operatori nimaga mo‘ljallangan?
++ Ikki jadvaldan olingan natijalarni bitta jadvalda birlashtirish uchun
+- Ikkala tanlovda mavjud umumiy natijalarni chiqarish uchun
+- Birinchi tanlovda mavjud, lekin ikkinchisida yo‘q bo‘lgan natijalarni chiqarish uchun
+- Ikki so‘rov tanlovining natijalarini birlashtirish uchun
+
+
+
+# MySQL so’rovlarida ko’pincha  FROM so’zidan keyin …….. nomi yoziladi?
++ Jadval
+- Ustun
+- Maydon
+- Qator
+
+
+
+# DELETE * FROM Mahsulotlar WHERE ID=2; so`rovni natijasini aniqlang?
++ Mahsulotlar jadvalidan id 2 ga teng bo`lgan qatorni barcha ma`lumotlarini o`chiradi
+- Mahsulotlar jadvalidan id 2 ga teng bo`lgan ustunni o`chiradi
+- Mahsulotlar jadvalidan id 2 ga teng bo`lgan qatorni qo`shadi
+- Mahsulotlar jadvalidan id 2 ga teng bo`lgan qatorni belgilaydi
+
+
+
+# So`rov orqali  mahsulot ob`yektidan nonni narxi o`zgartirilsin
++ UPDATE mahsulot SET  narxi= `1050` WHERE  Mahsulot nomi=`non`
+- UPDATE mahsulot SET  Mahsulot nomi=`non`  WHERE  narxi= `1050`
+- DELETE mahsulot SET  narxi= `1050` WHERE  Mahsulot nomi=`non`
+- UPDATE non SET  narxi= `1050` WHERE  Mahsulot nomi=`mahsulot`
+
+
+
+# MySQL da  CREATE VIEW operatori ishlatilsa?
++ 2 ta jadvaldan kerakli ustunlar tanlanadi va virtual usulda ko’rsatiladi
+- Dinamik jadvaldan ma’lumot ko’rsatiladi
+- har doim har xil
+- VIEW  jadvallarni ko’rsatish uchun hizmat qiladi
+
+
+
+# DELETE * FROM Yetkazib_beruvchilar WHERE Yetkazib_beruvchilar="Sarbon MChJ" So`rovidagi * FROM nima uchun ishlatiladi?
++ Berilgan jadvaldagi hamma ma’lumotlarni ko’rib chiqish
+- Berilgan qatordagi hamma ma’lumotlarni ko’rib chiqish
+- Berilgan yozuv hamma ma’lumotlarni ko’rib chiqish
+- Berilgan kortejdagi hamma ma’lumotlarni ko’rib chiqish
+
+
+
+# SELECT MAX(id) FROM STUDENT so‘rovini nima qaytaradi?
++ STUDENTning maksimal indentifikatori
+- STUDENTning  oxirgi identifikatori
+- STUDENTning  oxirgi identifikatori
+- STUDENTlarning miqdori
+
+
+
+# SELECT AVG(age) FROM STUDENT so‘rovi nimani qaytaradi?
++ STUDENTlarning o‘rtacha yoshini
+- Maksimal STUDENT
+- Minimal STUDENT
+- STUDENTlar yoshining yig‘indisini
+
+
+
+# Jadvaldagi qatorlar soni qanday hisoblanadi?
++ COUNT funksiyasi yordamida
+- AVG funksiyasi yordamida
+- MIN funksiyasi yordamida
+- MAX funksiyasi yordamida
+
+
+
+# Agregat funksiyalarni ko`rsating?
++ MIN, MAX,Count, AVG
+- MIN, MAX, DATE, AVG
+- MIN, MAX,SUBSTR, MID
+- LEFT, RIGHT, MAX,Count,AVG
+
+
+
+# Qaysi operatorlar bilan MIN, MAX, AVG, SUM agregat funksiyalar bajarilishi mumkin?
++ faqatgina SELECT bilan
+- SELECT va DELETE
+- UPDATE
+- INSERT va UPDATE
+
+
+
+# SELECT  MAX(`max_narxi(so`m)`)  AS  `eng qimmat mahsulot`  FROM `mahsulotlar`; so`rov natijasini toping?
++ Eng qimmat narxga ega bo`lgan maxsulot  narxi
+- Eng arzon narxga ega bo`lgan maxsulot  narxi
+- Eng qimmat narxga ega bo`lgan maxsulot  nomi
+- Eng qimmat narxga ega bo`lgan maxsulot haqida barcha ma`lumot
+
+
+
+# SELECT  AVG(`max_narxi(so`m)`) FROM `mahsulotlar`;  so`rov natijasini toping?
++ Mahsulotlar jadvalidagi `max_narxi` ustunining o`rta arifmetigi
+- Mahsulotlar jadvalidagi `max_narxi` ustunining yig`indisi
+- Mahsulotlar jadvalidagi `max_narxi` ustunining kattasi
+- `max_narxi` jadvalidagi Mahsulotlar ustunining o`rta arifmetigi
+
+
+
+# SELECT AVG(oylik) FROM Xodimlar; so‘rovi nimani qaytaradi?
++ Xodimlarning o’rtacha oyligi
+- Xodimlarning  birinchi identifikatori
+- Xodimlarning oxirgi identifikatori
+- Xodimlarlarning ismlarini
+
+
+
+# SELECT MIN(ID) FROM STUDENT so‘rovi nimani qaytaradi?
++ STUDENTning minimal indentifikatori
+- STUDENTning  oxirgi identifikatori
+- STUDENTning  birinchi identifikatori
+- STUDENTlarning miqdori
+
+
+
+# SELECT MAX(ID) FROM STUDENT so‘rovi nimani qaytaradi?
++ STUDENTning maksimal identifikatori
+- STUDENTning  birinchi identifikatori
+- STUDENTning  oxirgi identifikatori
+- STUDENTlarning ismlarini
+
+
+
+# SELECT SUBSTR(`familiya`,1,1)  FROM `xodimlar`; so`rov natijasini toping?
++ Xodimlar familyalarining bosh harflarini chiqaradi
+- Xodimlar familyalarining birinchisini chiqaradi
+- Xodimlar familyalarining bitta harfini chiqaradi
+- So`rovda xatolik beradi
+
+
+
+# Ma’lumotlarni qaysi toifasiga MIN, MAX, AVG, SUM agregat funksiyalarni qo‘llash mumkin emas?
++ Qatorlar
+- Sonlar
+- Sanalar
+- Barcha ma’lumotlarga qo‘llash mumkin
+
+
+
+# LIKE to`g`ri qollanilgan so`rovni ko`rsating?
++ SELECT   * FROM      Products WHERE   PName LIKE ‘%gizmo%’
+- SELECT   * FROM     LIKE WHERE   PName  Products ‘%gizmo%’
+- SELECT  LIKE(‘%gizmo%’)  FROM      Products WHERE   PName
+- SELECT   * FROM      Products,   PName LIKE ‘%gizmo%’
+
+
+
+# Select * from exam Where mark in (4,5); so`rov natijasini toping?
++ Imtixondan 4 yoki 5 olganlar hadiqa ma`lumot
+- Imtixondan 4 va 5 olmaganlar hadiqa ma`lumot
+- Imtixondan 4,5 va undan past baho olganlar hadiqa ma`lumot
+- Imtixondan 4 chi va 5 chi bilet haqidagi ma`lumot
+
+
+
+# Lower operatorining vazifasi nima?
++ berilgan ustunni kichik harflarga almashtirib beradi
+- berilgan qatorni kichik harflarga almashtirib beradi
+- berilgan satrni katta harflarga almashtirib beradi
+- berilgan qatorni katta harflarga almashtirib beradi
+
+
+
+# Upper operatorining vazifasi nima?
++ berilgan ustunni katta harflarga almashtirib beradi
+- berilgan qatorni kichik harflarga almashtirib beradi
+- berilgan satrni kichik harflarga almashtirib beradi
+- berilgan qatorni katta harflarga almashtirib beradi
+
+
+
+# SELECT TIMESTAMPDIFF(SECOND, '2015-04-29 22:14:55', '2015-04-29 22:24:18'); So`rov natijasini aniqlang?
++ soniyalar orasidagi farq
+- joriy vaqtni ko`rsatadi
+- ko`rsatilgan vaqt
+- xatolik yuz beradi
+
+
+
+# MBBTda DDL tilini vazifasi nima?
++ Ma`lumotlarni tasvirlash tili
+- Ma`lumotlarni manipulyatsiya qilish tili
+- Ma`lumotlarni nazorat qilish tili
+- Ma`lumotlarni saqlash tili
+
+
+
+# SQLda satrni uzunligini aniqlab beradigan operatorni toping?
++ Length
+- Substr
+- Mid
+- First
+
+
+
+# MBBTda DML tilini vazifasi nima?
++ Ma`lumotlarni manipulyatsiya qilish tili
+- Ma`lumotlarni tasvirlash tili
+- Ma`lumotlarni nazorat qilish tili
+- Ma`lumotlarni saqlash tili
+
+
+
+# MBBTda DCL tilini vazifasi nima?
++ Ma`lumotlarni nazorat qilish tili
+- Ma`lumotlarni tasvirlash tili
+- Ma`lumotlarni manipulyatsiya qilish tili
+- Ma`lumotlarni saqlash tili
+
+
+
+# LONG toifasi xotiradan qancha joy egallaydi?
++ Bitta jadval uchun Maksimal darajasi  4G
+- Bitta jadval uchun Maksimal darajasi   2 G
+- Bitta jadval uchun Maksimal darajasi  6 G
+- Bitta jadval uchun Maksimal darajasi  8 G
+
+
+
+# Ko‘p foydalanuvchili MBBTda ishlashning murakkabligi nimada?
++ Loyihalash, foydalanishda hamda boshqarishda  murakkabligi
+- Loyihalashning murakkabligi
+- Ekspluatatsiyaning murakkabligi
+- MB ga bo‘lgan talablar o‘zgaradi
+
+
+
+# Mahalliy (Lokal) MB da ko‘p foydalanuvchi ishlashiga ruxsat mavjudmi?
++ Yo‘q
+- Ha
+- Ha, MySQL va ORACLE mahsulotlarida
+- MySQL dan tashqari har qanday MB da
+
+
+
+# Zahira o‘rnini bosuvchi MBBT serveri nima deb ataladi?
++ Mirroring
+- massiv RADON
+- namuna
+- Nusxa
+
+
+
+# Bitta tranzaksiya nechta operatsiyadan iborat bo‘lishi mumkin?
++ bir nechta
+- faqat bitta
+- faqat ikkita
+- kamida ikkitadan
+
+
+
+# Tranzaksiya nechta xususiyatga ega
++ 4 (ACID)
+- 3 (SET)
+- 2 (IN)
+- 1 ()
+
+
+
+# MB dagi ma’lumotlarni tranzaktsiya mantiqiy birligi nima deb ataladi
++ Tranzaksiya
+- Operatsiya
+- O‘qish
+- Yozuvlarni qayd qilish
+
+
+
+# Tranzaksiyalarning asosiy xususiyatlari
++ ACID
+- APID
+- CRUD
+- DDL
+
+
+
+# Tizimdagi ma’lumotlarni qayta tiklash uchun MB qanday imkoniyatidan foydalanish zarur
++ Backup
+- Tables
+- Config
+- Memory
+
+
+
+# Qaysi buyruqlardan biri tranzaksiyadagi o‘zgarishlarni saqlash uchun xizmat qiladi
++ COMMIT
+- FLUSh
+- ROLLBACK
+- BEGIN TRANSACTION
+
+
+
+# Ma'lumotlar bazasini boshqarish jarayonida bitta rolda nechta foydalanuvchi bo‘lishi mumkin
++ Bir nechta
+- Bitta
+- Ikkita
+- Uchtadan ko‘p emas
+
+
+
+# SELECT * FROM test ORDER BY ism ASC; So`rovdagi "ASC" nima vazifa bajaradi?
++ Ism ustunini oshib borish tartibda saralaydi
+- Ism ustunini saralaydi
+- Ism ustunini guruhlaydi
+- Test jadvalidan ism ustunini ajratib ko`rsatadi
+
+
+
+# Qaysi buyruqlardan biri tranzaksiyani boshlanishini e’lon qilish uchun xizmat qiladi
++ BEGIN TRANSACTION
+- COMMIT
+- ROLLBACK
+- COMMIT
+
+
+
+# Ma’lumotlarga ruxsat etish xavfsizligi qanday mexanizm bilan ta’minlanadi
++ Foydalanuvchilar va rollar
+- Shifrlash
+- Deshifrlash
+- Faqatgina ma’lumotlarni himoyalash mavjud
+
+
+
+# Tranzaksiya bu......?
++ Ma’lumotlar bilan ishlashda o‘zining mantiqiy birligiga ega bo‘lgan ma’lumotlar bazasi jarayonlarining ketma-ket bajarilish guruxi
+- Fizik va mantiqiy rad etish hollarida oldingi holatdagi ma’lumotlar bazasini tiklash uchun ma’lumotlar saqlanadigan MBBT funksiyasi
+- MBBT ga bo‘lgan asosiy talablardan biri bu tashqi xotirada ma’lumotlarni ishonchli saqlanishidir
+- MBning asosiy qismi bo‘lib hisoblanadi va barcha rivojdagi MBBTda pratokol Write Ahead Log – WAL deb nomlanadi
+
+
+
+# Qaysi buyruqlardan biri tranzaksiyani boshlang'ich holatga qaytarish uchun xizmat qiladi
++ ROLLBACK
+- COMMIT
+- BEGIN TRANSACTION
+- FLUSh
+
+
+
+# Qaysi buyruqlardan biri tranzaksiya muvafaqiyatli bajarilganligini anglatadi
++ COMMIT
+- ROLLBACK
+- BEGIN TRANSACTION
+- FLUSH
+
+
+
+# Ma’lumotlar bazasi xavfsizligini ta’minlash nimalardan iborat bo'ladi
++ Jadvallar ustida ayrim amallarni bajarish huquqi faqatgina aniq foydalanuvchiga va aniq vaqt davomida beriladi
+- Barcha foydalanuvchilar uchun alohida ma’lumotlarni o‘qish huquqi
+- Faqatgina avtorizatsiyalashgan foydalanuv-chilar uchun harakatlarni bajarish huquqi
+- Ma’lum toifadagi foydalanuvchilar uchun ma’lumotlarni shifrlash va deshifrlash
+
+
+
+# Bitta foydalanuvchida nechtagacha rollar bo‘lishi mumkin
++ Bir nechta
+- Bitta
+- Ikkita
+- Uchtadan ko‘p emas
+
+
+
+# Quyidagi So’rov berilgan. SELECT Familiya, CONCAT(shahar, " ", tuman, " ", manzil) AS manzil FROM talaba;  AS yordamchi so’z vazifasi?
++ Manzil nomli yangi ustunda so’rov  natijalarini chiqarishga
+- Manzil nomli yangi qatorda so’rov  natijalarini chiqarishga
+- Manzil nomli yangi jadvalda so’rov  natijalarini chiqarishga
+- Manzil nomli yangi kortejda so’rov  natijalarini chiqarishga
+
+
+
+# DELETE FROM Mijozlar WHERE MijozName=‘Alimov Bekzod’;
++ Mijozlar jadvalidagi MijozName ‘Alimov Bekzod’ bo’lgan yozuv o’chiriladi
+- MijozName jadvalidan ‘Alimov Bekzod’ nomli Mijoz yozuvi o’chirladi
+- FROM Mijoz jadvalidan MijozName ‘Alimov Bekzod’ bo’lgan yozuv o’chiriladi
+- Mijoz WHERE jadvalidan MijozName ‘Alimov Bekzod’ bo’lgan yozuv o’chiriladi
+
+
+
+# Bir nechta amallar birligining bajarilishining nomlanishi nima deyiladi
++ Tranzaksiya
+- Domen
+- Abstraktsiya
+- Sikllar
+
+
+
+# GRANT SELECT, INSERT ON Talaba  TO 'Alimov_Doniyor'; so’rovi natijasi
++ Talaba  jadvalga, 'Alimov_Doniyor' foydalanuvchiga  SELECT, INSERT operatorlarini ishlatishga ruxsat berish
+- Alimov_Doniyor'  jadvalga temporary foydalanuvchiga SELECT, INSERT operatorlarini ishlatishga ruxsat berish
+- Temporary jadvalga, 'Alimov_Doniyor' foydalanuvchiga  SELECT, INSERT operatorlarini ishlatishga ruxsat
+bermaslik
+- 'Alimov_Doniyor'  jadvalga temporary foydalanuvchiga SELECT, INSERT operatorlarini ishlatishga ruxsat berimaslik
+
+
+
+# Xodim jadvalida `id`=5 bo‘lgan xodimning Familiyasini o‘zgartirish amali qaysi javobda to‘g‘ri ko‘rsatilgan
++ UPDATE `Xodim` SET `Familiyasi`=`Anvarov` where  `id`=5
+- ALTER `Xodim` AS `Familiyasi`=`Anvarov` where  `id`=5
+- SELECT `Xodim` SET `Familiyasi`=`Anvarov` where  `id`=5
+- UPDATE `Xodim` `Familiyasi`=`Anvarov`  SET where  `id`=5
+
+
+
+# MySQL so’rov bajarilsa natijasi qanday bo’ladi? SELECT MAX(Baho) AS Katta_ball FROM Yakuniy_Nazorat;
++ Yakuniy_Nazorat jadvalining Baho ustunidagi ma’lumotlarni eng kattasini Katta_ball deb nomlab ko’rsatish
+- Yakuniy_Nazorat jadvalidagi Baho ustunidagi ma’lumotlarni o’rtachasini Katta_ball deb nomlab ko’rsatish
+- MAX(Baho) nomli jadvaldan Baho ustunidagi ma’lumotlarni o’rtachasini Katta_ball deb nomlab ko’rsatish
+- KattaNarx  jadvalidan MAX(Baho) nomli ustunidagi ma’lumotlarni eng kattasini ko’rsatish
+
+
+
+# INSERT INTO  operatori vazifasi?
++ Ma’lumotlarni jadvalga kiritish va satr qo’shish  uchun
+- Ma’lumotlarni ustunga kiritish va yangi maydon qo’shish  uchun
+- Ma’lumotlarni maydonga kiritish va yangi ustun qo’shish  uchun
+- Ma’lumotlardagi maydon tipini o’zgartirish uchun
+
+
+
+# Xodim jadvaliga yangi atribut qo‘shish amali qaysi javobda to‘g‘ri ko‘rsatilgan
++ ALTER TABLE `Xodim` ADD COLUMN `Tel_raqam` text(15) null
+- ALTER TABLE `Xodim` SET `Jinsi` varchar(10) not null
+- ALTER TABLE `Xodim` RENAME `Yoshi` int(3) not null
+- ALTER TABLE `Xodim` CHANGE  `Tel_raqam` text(15)  not null
+
+
+
+# “Xodim jadvalidan yoshi 37 dan yuqori va familiyasi A harfi bilan boshlanuvchilarning oylik maoshi o‘rta arifmetigi topilsin”. Yuqoridagi shartni qaysi javobdagi so‘rov qanoatlantiradi
++ SELECT AVG(`maosh`) as `Natija` from `Xodim` WHERE `yoshi`>37  AND  `Familiyasi`  LIKE`A%`
+- SELECT AVG(`maosh`) as `Natija` from `Xodim` WHERE `yoshi`>37 AND  LIKE `A%`
+- SELECT AVG(`maosh`) as `Natija` from `Xodim` WHERE `yoshi`>37 AND  LIKE `Familiyasi`=`A%`
+- SELECT *  from `Xodim` WHERE `yoshi`>37 and LIKE `Familiyasi`=`A%`
+
+
+
+# Talaba jadvalidan familiyasi B harfi bilan boshlanib, V harfi bilan tugovchilarini sonini sanash so‘rovi qaysi javobda to‘g‘ri ko‘rsatilgan
++ SELECT COUNT(*) as `Natija`  from  `Talaba`  WHERE  `Familiyasi`  LIKE  `B%V`
+- SELECT COUNT(*) as `Natija` from `Talaba` WHERE  LIKE `Familiyasi` `B%V`
+- SELECT COUNT(*) as `Natija` from `Talaba` WHERE LIKE `Familiyasi` `B%V%`
+- SELECT COUNT(*) as `Natija` from `Talaba` WHERE `Familiyasi` LIKE `%B%V`
+
+
+
+# ALTER TABLE `Xodim` MODIFY  `Jinsi` varchar(5); Sorovi natijasi
++ Jadvaldagi ‘Jinsi’ nomli ustun ma’lumot tipini varchar(5) ga o’zgartiradi
+- Jadvaldagi  hamma ma’lumotlar tipini varchar(5) ga o’zgartiradi
+- Xodim Ustunidagi Jinsi qatorini 5 ga o’zgartiradi
+- Xodim qatoridagi ma’lumot uzunligini 5 taga bo’ladi
+
+
+
+# Mahsulot jadvalidan narxi 4000 so'm va undan yuqori bo‘lganlarini nomi bo‘yicha guruhlab chiqarish so‘rovi qaysi javobda to‘g‘ri ko‘rsatilgan
++ SELECT  `Nomi`, MAX(`narx`) as `Natija` from `Mahsulot` GROUP BY `Nomi`  HAVING MAX(`narx`)>=4000
+- SELECT  `Nomi`, MAX(`narx`) as `Natija` from GROUP BY `Nomi`  HAVING MAX(`narx`)>4000
+- SELECT * from `Mahsulot` GROUP BY `Nomi`  HAVING MAX(`narx`)>4000
+- SELECT  `Nomi`, MAX(`narx`) as `Natija` from `Mahsulot` GROUP BY `narx`  HAVING MAX(`Nomi`)>=4000
+
+
+
+# Fanlar jadvalidan `fan_soati` 80 dan yuqori bo‘lganlarini nomi bo‘yicha guruhlab chiqarish so‘rovi qaysi javobda to‘g‘ri ko‘rsatilgan
++ SELECT  `Fan_nomi`, MAX(`fan_soati`) as `Natija` from `Fanlar` GROUP BY `Fan_nomi`  HAVING MAX(`fan_soati`)>80
+- SELECT  `Fan_nomi`, MAX(`fan_soati`)  from `Fanlar` GROUP BY `Fan_nomi`  HAVING MAX(`fan_soati`)>=80
+- SELECT  `Fan_nomi`, MAX(`fan_soati`) as `Natija` GROUP BY `Fan_soati`  HAVING MAX(`fan_soati`)>80
+- SELECT  `Fan_nomi`, MAX(`fan_soati`) as `Natija` from `Fanlar` GROUP BY `Fan_nomi`  HAVING MAX(`fan_nomi`)>80
+
+
+
+# Xodim jadvalidan ixtiyoriy atributni o'chirish amali qaysi javobda to‘g‘ri ko‘rsatilgan
++ ALTER TABLE `Xodim` DROP  COLUMN `Tel_raqam` text(15)
+- ALTER TABLE `Xodim` DELETE `Jinsi` varchar(10) not null
+- ALTER TABLE `Xodim` DROP RENAME `Yoshi` int(3) not null
+- ALTER TABLE `Xodim` CHANGE  DROP `Tel_raqam` text(15)  not null
+
+
+
+# Xodim jadvalidan ixtiyoriy atributning ma'lumot tipini o'zgartirish amali qaysi javobda to‘g‘ri ko‘rsatilgan
++ ALTER TABLE `Xodim` MODIFY  `Jinsi` varchar(5)
+- ALTER TABLE `Xodim` MODIFY ALTER `Jinsi` varchar(10) not null
+- ALTER TABLE `Xodim` MODIFY CHANGE `Yoshi int(3) not null
+- ALTER TABLE `Xodim` CHANGE COLUMN `Tel_raqam` text(15)  not null
+
+
+
+# Mahsulot jadvalidan ixtiyoriy atributning ma'lumot tipini o'zgartirish amali qaysi javobda to‘g‘ri ko‘rsatilgan
++ ALTER TABLE `Mahsulot` MODIFY  `narxi` varchar(15)  null
+- ALTER TABLE `Mahsulot` MODIFY ALTER `nomi` varchar(10) null
+- ALTER TABLE `Mahsulot`  MODIFY CHANGE `nomi`  text(3) null
+- ALTER TABLE `Mahsulot` CHANGE COLUMN `narxi` text(15)  null
+
+
+
+# SELECT TIMESTAMPDIFF(YEAR, '2015-04-29 22:14:55', '2018-04-29 22:24:18'); So`rov natijasini aniqlang
++ Yillar orasidagi farq
+- joriy vaqtni ko`rsatadi
+- ko`rsatilgan vaqt
+- xatolik yuz beradi
+
+
+
+# SELECT * FROM talaba ORDER BY baho DESC; So`rovdagi "desc" nima vazifa bajaradi?
++ Baho ustunini teskarisiga saralaydi
+- Baho ustunini saralaydi
+- Baho ustunini guruhlaydi
+- Talaba jadvalidan Baho ustunini ajratib ko`rsatadi
+
+
+
+# Berilgan misoldagi ‘number’ so’zi ?: SELECT * FROM STUDENT WHERE group_id IN (SELECT id FROM group WHERE number=‘217-18’)
++ ustun
+- Qator
+- Birlashuv
+- Jadval
+
+
+
+# Quyidagi berilgan MySQL so’rovini ishga tushirsa sintaksis xato bor deb, bajarilmaydigan so’rovni toping.
++ INSERT INTO CUSTOMERS (ID,NAME,AGE,ADDRESS,SALARY) VALUES (1, 'Rustam', 32, 'Andijon', Done );
+- INSERT INTO CUSTOMERS (ID,NAME,AGE,ADDRESS,SALARY)  VALUES (2, 'Khurshid', 25, 'Denov', 1500.00 );
+- INSERT INTO CUSTOMERS (ID,NAME,AGE,ADDRESS,SALARY) VALUES (3, 'Kamronbek', 23, 'Karshi', 2000.00 );
+- INSERT INTO CUSTOMERS (ID,NAME,AGE,ADDRESS,SALARY) VALUES (4, 'Charos', 25, 'Chirchiq', 6500.00 );
+
+
+
+# SELECT * FROM STUDENT WHERE SURNAME LIKE 'P%';
++ P harfi bilan boshlanadigan familyalar chiqadi.
+- P bilan tugovchi familyalar chiqadi.
+- Hech nima chiqmaydi
+- P harfiga teng bo‘lmagan familyalar chiqadi
+
+
+
+# Qaysi javobda LIKE operatoridan to'g'ri foydalanilgan
++ SELECT * from Talaba WHERE `Familiyasi` LIKE '%ev'
+- SELECT * from Talaba WHERE LIKE `Familiyasi`  '%ev'
+- SELECT * from Talaba  `Familiyasi`  WHERE LIKE '%ev%'
+- SELECT * from Talaba WHERE `Familiyasi`  LIKE 'ev'
+
+
+
+# Talaba jadvalidan bahosi 4 dan yuqori bo‘lganlarini familiyasi bo‘yicha guruhlab chiqarish so‘rovi qaysi javobda to‘g‘ri ko‘rsatilgan
++ "SELECT `Familiyasi`, MAX(`baho`) as `Natija` from `Talaba` GROUP BY `Familiyasi` HAVING MAX(`baho`)>4"
+- "SELECT `Familiyasi`, MAX(`baho`) as `Talaba` GROUP BY `baho` HAVING MAX(`Familiyasi`)>4"
+- SELECT `Familiyasi as `Talaba` GROUP BY `Familiyasi` HAVING MAX(`baho`)>4
+- "SELECT `Familiyasi`, MAX(`baho`) as `Natija` from `Talaba` GROUP BY `Familiyasi` HAVING MAX(`baho`)= 4"
+
+
+
+# Maxsulotlar nomli jadval berilgan. Quyidagi MySQL so’rov bajarilsa natijasi qanday bo’ladi?  SELECT * FROM Maxsulotlar WHERE Narx BETWEEN 101 AND 205 AND CategoryID IN (1,2,3,8,12);
++ Maxsulotlar jadvalining Narx nomli ustundagi ma’lumotlar ichidan 101 va 205 lar oralig’idagi yozuvi bor qatorlarni ko’rsatish hamda faqat CategoryID = 1,2,3,8,12 ga teng bo’lganlarini ko’rsatish
+- Maxsulotlar jadvalidan Narx nomli ustundagi ma’lumotlar ichidan 101 va 205 orasidagi yozuvlarni tanlash hamda CategoryID = 1,2,3,8,12 ga teng bo’lganlarini ko’rsatmaslik
+- Narx jadvalidan Maxsulotlar nomli ustundagi ma’lumotlar ichidan 101 va 205 orasidagi yozuvlarni ko’rsatish hamda CategoryID = 1,2,3,8,12 ga teng bo’lganlarini ko’rsatmaslik
+- Narx jadvalining Maxsulotlar nomli ustundagi ma’lumotlar ichidan 101 va 205 orasidagi yozuvlarni tanlash hamda CategoryID = 1,2,3,8,12 ga teng bo’lganlarini ko’rsatish
+
+
+
+# Qaysi javobda INSERT INTO SELECT amali bajarilish tartibi to’g’ri keltirilgan?
++ Birinchi jadvaldan ikkinchi jadvalga shartlarda berilgan ma’lumotlarni ko’chirish
+- Birinchi jadvaldan ikkinchi jadvalga shartlarda berilgan ma’lumotlarni ko’chirishga ruxsat bermaslik
+- Faqatgina birinchi jadvalga ko’chirish ortib qolsa ikkinchi jadvalga ko’chirish
+- Birinchi jadvaldagi hamma ma’lumotlarni ikkinchi jadvalga ko’chirib o’tqazish
+
+
+
+# O'quvchilar jadvalidan 10 yoshlilarini sonini chiqaruvchi so'rov qaysi javobda to'g'ri ko'rsatilgan
++ SELECT Count(ID) as `Natija` from `O'quvchilar` WHERE `Yoshi`='10'
+- SELECT Count(ID) as `Natija` from `O'quvchilar` WHERE `Yoshi`>='10'
+- SELECT *  as `Natija` `O'quvchilar`  from  `Yoshi`  WHERE `='10'
+- SELECT SUM(ID) as `Natija` from `O'quvchilar` WHERE `Yoshi`='10'
+
+
+
+# Qaysi javobda LIKE operatoridan to'g'ri foydalanilgan
++ SELECT * from Xodim WHERE Ism LIKE '%or%'
+- SELECT * from Xodim WHERE LIKE `Ism`  '%or'
+- SELECT * from Xodim  `Ism`  WHERE LIKE '%or%'
+- SELECT * from Xodim WHERE Ism LIKE ='or'
+
+
+
+# LIKE to`g`ri qo'llanilgan so`rovni ko`rsating
++ SELECT   * FROM  Products WHERE   Name LIKE ‘%ford%’
+- SELECT   * FROM  LIKE WHERE   Name  Products ‘%ford%’
+- SELECT  LIKE (‘%ford%’)  FROM  Products WHERE  Name
+- SELECT   * FROM  Products,   Name LIKE ‘%ford%’
+
+
+
+# Select LPAD(oyinchi, 11, '*') from fun. So`rov natijasini tanlang
++ ****Ahmedov
+- **********Ahmedov
+- Ahmedov****
+- Ahmedov******
+
+
+
+# Svоping bu?
++ jarayonlarni asоsiy xоtiradan diskka va оrqaga to'liq o'tkazishdir
+- jarayonlarni fleshkaga o'tkazish
+- jarayonlarni оperativ xоtirada ushlab turish
+- jarayonlarni diskka o'tkazish
+
+
+
+# NTFS fayllik tizimi nechta bitli prоttsessоr-lar bilan ishlaydi?
++ 16 va 32
+- 8 va 16
+- 32
+- 16
+
+
+
+# Jarayonni rejalashtirish darajalari
++ uzоq muddatli, o'rta muddatli va qisqa muddatli
+- cheksiz va chekli muddatli
+- faqat uzоq muddatli
+- aniq va aniq emas muddatli
+
+
+
+# Xоtira ierarxiyasi bo'yicha, eng qimmat tezkоr va qimmat xоtira
++ prоtsessоr registrlari
+- tashqi xоtira
+- elektrоn disklar
+- asоsiy xоtira
+
+
+
+# Оchiq kоdli ОT larda
++ tizim kоdlari оchiq, ixtiyoriy fоydalanuvchi uni o'zgartirishi mumkin
+- tizim kоdlari оchiq, ammо ularni o'zgar-tirish mumkin emas
+- dastur kоdlari оchiq emas
+- tizim kоdlari faqat tizim mualliflari uchun оchiq
+
+
+
+# Xоtiraning ma`lumоtlar jоylashadigan bo'limi?
++ segment deyiladi
+- stek deyiladi
+- sahifa deyiladi
+- оverley deyiladi
+
+
+
+# Dasturiy ta`minоt quyidagi bo'limlardan ibоrat
++ asоs dasturiy ta`minоt, tizimli dasturiy ta`minоt, xizmatchi dasturiy ta`minоt, amaliy dasturiy ta`minоt
+- tizimli dasturiy ta`minоt
+- asоs dasturiy ta`minоt, tizimli dasturiy ta`minоt
+- asоs dasturiy ta'minоt
+
+
+
+# Dastur algоritmlarda, ishlоv beriladigan massivlarda amal va kattaliklardan fоydalanish chastоtasiga qarab, funktsiyalarni ajratishga asоslangan printsip
++ chastоta printsipi
+- xavfsizlik printsipi
+- mоdullilik printsipi
+- generatsiya printsipi
+
+
+
+# Windows ОT larining bоshqa ОТ lardan printsipial farqi
++ grafik interfeysi va bir nechta ilоvalar bilan birgalikda ishlash
+- dialоgli ish rejimi
+- hisоblashlar ishоnchliligi
+- Kоmanda tili yo'qligi
+
+
+
+# Multidasturlash bu
++ hisоblash jarayonning tashkil qilish usuli bo'lib, bitta prоtsessоrda navbat bilan bir nechta dastur bajariladi
+- hisоblash jarayonning tashkil qilish usuli bo'lib, bitta prоtsessоrda bir vaqtning o'zida bir nechta dastur bajariladi
+- hisоblash jarayonning tashkil qilish usuli bo'lib, bir nechta prоtsessоrda bitta dastur bajariladi
+- hisоblash jarayonning tashkil qilish usuli bo'lib, bir necha prоtsessоrda navbat bilan bir nechta dastur bajariladi
+
+
+
+# Amaliy dasturiy ta`minоt – dasturlari
++ aniq sоxa masalalarini yechishni ta`minlоvchi dastur-lardir
+- tizimga xizmat qilu-vchi dasturlar
+- interfeysni ta`minlоvchi dasturlar
+- tizimni sоzlоvchi dasturlar
+
+
+
+# Qaysi vоsita yordamida siqlgan fayllarni qayta yoymasdan qayta ishlash mumkin
++ NTFS
+- BFS
+- FAT
+- JFS
+
+
+
+# Utilitalar bu shunday fоydali dasturlarki
++ xajmi kichik dasturlar bo'lib, apparat vоsitalar ishini bоshqaradi, turli yordamchi funktsiyalarni, ishlоvchanlik qоbilyatini, sоzlashni tekshiradi
+- faqat sоzlaydi
+- apparat vоsitalar ishini kuzatadi
+- xizmat qiladi, ishlоvchanligini tekshiradi
+
+
+
+# Fat fayl tizimida, mantiqiy disk:
++ tizimli sоxa va ma`lumоtlar sоxasiga bo'linadi
+- yuklanish qismlari
+- katalоglar sоxasi va tizimli sоxa
+- ma`lumоtlar sоxasi va katalоglarga bo'linadi
+
+
+
+# Windows NT/2000/XP ijrо tizimi quyidagi kоmpоnentalardan ibоrat
++ jarayonlar, virtual xоtira, оb`ektlar dispetcheri, xavfsizlik mоnitоri, kiritish chiqarish dispetcheri, lоkal prоtseduralarni chaqirish vоsitasi
+- jarayonlar, virtual xоtira, оb`ektlar dispetcheri
+- jarayonlar, virtual xоtira, оb`ektlar kiritish chiqarish dispetcherlari
+- lоkal prоtseduralarni chaqirish vоsitalari
+
+
+
+# Fayllar tuzilishining asоsiy birligi nimalar
++ ma`lumоtlar
+- katalоglar
+- grafiklar
+- xоtira
+
+
+
+# Quyidagi ОT larning qaysi biri ko'p masalali va ko'p fоydalanuvchili hisоblanadi
++ UNIX
+- MS-DOS, MSX
+- ОS YeS, OS/2
+- WINDOWS 95
+
+
+
+# ОT bоshqaruvi оstida jarayonlar sоnini o'zgartirmaydigan amallar
++ ko'p martalik amallar
+- jarayon priоritetini o'zgartiruvchi amallar
+- tayyor hоlatga o'tkazuvchi amallar
+- bir martalik amallar
+
+
+
+# Tarmоq оperatsiоn tizimining qaysi qismi ilоvalardan barcha so'rоvlarni qabul qilib ularni analiz qiladi
++ server qismi
+- kоmpyuterni lоkal resurslarini bоshqaruvchi vоsita
+- klient qismi
+- kоmmunikatsiоn vоsitalar
+
+
+
+# Shaxsiy kоmpyuterning ta minоti qanday bo'limdan ibоrat
++ uskunaviy va dasturiy ta minоt
+- uskunaviy ta minоt
+- interfeys
+- dasturiy ta minоt
+
+
+
+# Prоtsessоr vaqti
++ chegaralangan resurs
+- dоimiy resurs
+- vaqtinchalik resurs
+- chegaralanmagan resurs
+
+
+
+# Multidasturlash rejimida ishlaydigan оperatsiоn tizimlar
++ rivоjlanish 3-davriga yuzaga keldi
+- rivоjlanish 1-davriga yuzaga keldi
+- rivоjlanish 4-davriga yu-zaga keldi
+- rivоjlanish 2-davriga yu-zaga keldi
+
+
+
+# Kоmpyuter tarkibiga kiruvchi turli qurilmalarni bоshqaruvchi maxsus dasturlar ..... .deb ataladi
++ drayverlar
+- xizmatchi dasturlar
+- plug and play texnоlоgiyasi
+- оperatsiоn tizim
+
+
+
+# Fоydalanuvchi tizim bilan ishlayotgan vaqtda, u o'rnatadigan parametrlarni qisqartirish, parametrlarni o'rnatish vaqtini tejashga imkоn beradigan printsip
++ standart xоlatlar (pо umоl-chaniyu) printsipi
+- funktsiоnal tanlanish printsipi
+- generatsiya printsipi
+- chastоta printsipi
+
+
+
+# Qanday axbоrоtlar se-curity accounts manag-er da saqlanadi
++ fоydalanuvchilarning qayd yo-zuvi haqidagi
+- Windows оperatsiоn tizim fоydalanuvchi-lari haqidagi
+- ma'lumоtlar bazasidagi axbоrоtlar
+- ro'yxatdan o'tgan fоyda-lanuvchilar haqidagi
+
+
+
+# Tarmоq оperatsiоn tizimining qaysi qismi ma`lumоtlarni adreslash, buferlash, va uzatilishidagi xavfsizlikni ta`minlaydi
++ kоmmunikatsiоn vоsitalar
+- kоmpyuterni lоkal resurslarini bоshqaruvchi vоsita
+- klient qismi
+- server qismi
+
+
+
+# Tizimli dasturiy ta`minоt bu
++ kоmpyuter tizimining dastur-lari va bevоsita apparat ta`minоti bilan o'zarо bоglan-  ishini ta`minlaydi
+- amaliy masalalarni yechimini ta`minlaydi
+- kоmpyuter ishini nazоrat qiladi
+- kоmpyuter qurilmalarini ishlashini ta`minlaydi
+
+
+
+# Mоnоlit ОT larda tuzilishi
++ 2 ta bo'lakdan ibоrat (bоsh dastur va prоtseduralar)
+- 5 ta satxdan ibоrat
+- 6 ta satxdan ibоrat (ko'p satxli dastur)
+- 3 ta satxdan ibоrat (bоsh dastur, prоtsedura va ser-vis dasturlari)
+
+
+
+# Zamоnaviy ОT larda xоtira:
++ segment sahifali bo'linadi
+- o'zgaruvchan bo'limlarga bo'linadi
+- qat`iy bo'limlarga bo'linadi
+- segmentlarga bo'linadi
+
+
+
+# Amaliy dasturiy ta`minоt
++ ma`lum ish jоyida aniq ma-salalarni yechishga yordam beradigan dastur
+- hisоblash tizimini nazоrat qiluvchi
+- stastikani оlib beradi
+- qurilmalarni ishlatuvchi
+
+
+
+# Xоtiraning fiksirlangan bo'limlarga bo'lishda
++ xоtira qat`iy o'lchamli bo'lak-larga оldindan bo'lingan bo'ladi
+- ma`lumоtlar-fayllar bo'laklarga bo'linadi
+- ma`lumоtlar xajmi bo'yicha jоylashtirib bоriladi
+- xоtira sahifalarga bo'linadi
+
+
+
+# Multidasturlash bu
++ hisоblash jarayonning tashkil qilish usuli bo'lib, bitta prоtsessоrda navbat bilan bir nechta dastur bajariladi
+- hisоblash jarayonning tashkil qilish usuli bo'lib, bir necha prоtsessоrda navbat bilan bir nechta dastur bajariladi
+- hisоblash jarayonning tashkil qilish usuli bo'lib, bir nechta prоtsessоrda bitta dastur bajariladi
+- hisоblash jarayonning tashkil qilish usuli bo'lib, bitta prоtsessоrda bir vaq-tning o'zida bir nechta dastur bajariladi
+
+
+
+# Matn muharriri Word bu
++ amaliy dasturiy
+- asоs dasturiy
+- xizmatchi dasturiy
+- tizimli dasturiy
+
+
+
+# Fragmentattsiya deb nimaga aytiladi
++ xоtira bo'limlarga ajratilganda qоladigan bo'l jоyi	
+- ma`lumоtlarning bo'limlarga sigmay qоlishi
+- xоtiraning bo'limlarga ajralmay qоlishi
+- xоtiraning bir turi
+
+
+
+# Qaysi vоsita yordamida siqlgan fayllarni qayta yoymasdan qayta ishlash mumkin
++ NTFS
+- JFS
+- BFS
+- FAT	
+
+
+
+# mv buyrug'ug'i qanday vazifani bajaradi?
++ Faylni qayta nomlash, nusxa olish
+- Faylni o'chirish
+- Katalogni nusxalash
+- Katalog yaratish
+
+
+
+# Tizimli dasturiy taminоt nechtaga bo'linadi
++ 3
+- 5
+- 2
+- 4
+
+
+
+# Windows server bu qaysi kompaniyaga tegishli
++ Microsoft
+- IBM
+- Unix
+- PS/OS
+
+
+
+# Unix operatsion tizimi qachon yaratilgan
++ 1960
+- 1978
+- 1995
+- 1980
+
+
+
+# Unix operatsion tizimi qaysi laboratoriyada ishlab chiqilgan
++ AT&T'S Bell laboratories
+- IBM laboratories
+- PS/OS laboratories
+- Solaris laboratories
+
+
+
+# Quyidagilardan qaysi biri Unix serverga o'xshash server operatsion tizim hisoblanadi
++ Solarius, Linux
+- Microsoft server
+- PS/OS
+- IBM
+
+
+
+# Quyidagilardan qaysi biri Linux serveri hisoblanadi
++ Ubuntu, Debian, CentOS	
+- Ubuntu, IBMm Debian
+- Microsoft, Debian,
+- IBM, Microsoft, Oracle
+
+
+
+# Ubuntu server qaysi kompaniya tamonidan ishlab chiqilgan
++ Canonical	
+- Microsoft
+- IBM
+- Oracle
+
+
+
+# Ubuntu server qaysi kompaniya tamonidan ishlab chiqilgan
++ Canonical	
+- Microsoft
+- IBM
+- Oracle
+
+
+
+# Windows operatsion tizimida buyruqlar qatorini (cmd) qaysi klavishlar yordamida bosiladi
++ Win + R
+- Win + F
+- Win + D
+- Win + T
+
+
+
+# Operatsion tizim nima
++ operatsion tizim bu foydalanuvchi va kompyuter o'rtasidagi muloqatni ta'minlab beruvchi dasturlar jamlanmasi
+- Operatsion tizim bu grafik interfeysni ikkilik sanoqqa o'tkazib beruvchi dasturlar jamlanmasi
+- Amaliy dasturlar jamlanmasi
+- Multimediyali dasturlar jamlanmasi
+
+
+
+# Operatsion tizim asoson ...
++ tizimli dasturlar jamlanmasi
+- amalaiy dasturlar jamlanmasi
+- multimediyali qurilmalar jamlanmasi
+- qobiqdan iborat
+
+
+
+# Operatsion tizimda hisoblash tizimining tarkibi bu
++ Konfiguratsiya
+- Drayverlar
+- Aparat vositalar
+- amaliy dasturlar
+
+
+
+# Quyidagilardan qaysi biri Operatsion tizimning asosiy tashkil etuvchilari hisoblaniladi
++ Yadro, kiritish-chiqarish tizimi, kamanda prosessori, fayl tizimi
+- Amaliy dasturlar, Yadro, Fayl tizimi
+- Kamanda prosessori, konfiguratsiya
+- To'g'ri javob berilmagan
+
+
+
+# Operatsion tizimning asosiy tashkil etuvchisi yadro bu
++ masalalar va resurslarni boshqarish, sinxronlashtirish va o’zaro bog’lanish bo’yicha asos funksiyalarni ta’minlaydi.
+- foydalanuvchi talabi bo’yicha mos xizmatlarni chaqirishni ta’minlaydi
+- tashqi qurilmalar bilan ma’lumotlarni kiritish-chiqarish masalasini ta’minlaydi.
+- kataloglar bilan ishlash uchun keng hizmat (servis) imkoniyatlarini beradi.
+
+
+
+# Operatsion tizimning asosiy tashkil etuvchisi kiritish - chiqarish tizimi bu
++ tashqi qurilmalar bilan ma’lumotlarni kiritish-chiqarish masalasini ta’minlaydi.
+- masalalar va resurslarni boshqarish, sinxronlashtirish va o’zaro bog’lanish bo’yicha asos funksiyalarni ta’minlaydi.
+- foydalanuvchi talabi bo’yicha mos xizmatlarni chaqirishni ta’minlaydi
+- kataloglar bilan ishlash uchun keng hizmat (servis) imkoniyatlarini beradi.
+
+
+
+# Operatsion tizimning asosiy tashkil etuvchisi kamanda prosessori bu
++ komandalarni qabul qilish va ularga ishlov berish, foydalanuvchi talabi bo’yicha mos xizmatlarni chaqirishni ta’minlaydi
+- masalalar va resurslarni boshqarish, sinxronlashtirish va o’zaro bog’lanish bo’yicha asos funksiyalarni ta’minlaydi.
+- tashqi qurilmalar bilan ma’lumotlarni kiritish-chiqarish masalasini ta’minlaydi.
+- kataloglar bilan ishlash uchun keng hizmat (servis) imkoniyatlarini beradi.
+
+
+
+# Operatsion tizimning asosiy tashkil etuvchisi fayl tizimi bu
++ kataloglar bilan ishlash uchun keng hizmat (servis) imkoniyatlarini beradi.
+- masalalar va resurslarni boshqarish, sinxronlashtirish va o’zaro bog’lanish bo’yicha asos funksiyalarni ta’minlaydi.
+- tashqi qurilmalar bilan ma’lumotlarni kiritish-chiqarish masalasini ta’minlaydi.
+- komandalarni qabul qilish va ularga ishlov berish, foydalanuvchi talabi bo’yicha mos   xizmatlarni chaqirishni ta’minlaydi
+
+
+
+# Operatsion tizim interfeysi bu
++ Foydalanuvchi aloqa o'rnatadigan qulay qobiq
+- Drayverlar jamlanmasi
+- Fayl tizimi
+- To'g'ri javob berilmagan
+
+
+
+# Buyruq interpretatori bu
++ Dastur tilidan mashina tiliga o'giradi (Tarjimon)
+- Drayverlarni ishga tushiradi
+- Amaliy dasturlarni ishga tushiradi
+- To'g'ri javob berilmagan
+
+
+
+# Kompyuter tashkil etuvchisi bu
++ Turli xil qurilmalarni boshqarish dasturi
+- Multimediya qurilmalarni boshqarish
+- O'yinlarni yaratish dasturi
+- Tizimni boshqarish
+
+
+
+# Operatsion tizimning rivojlanish tarixi 1 - avlod nechinchi yillarni o'z ichiga oladi.
++ 1945 - 1955
+- 1965 - 1975
+- 1975 - 1985
+- 1985 - 1995
+
+
+
+# Operatsion tizimning rivojlanish tarixi 2 - avlod nechinchi yillarni o'z ichiga oladi.
++ 1955 - 1965
+- 1965 - 1975
+- 1945 - 1955
+- 1985 - 1995
+
+
+
+# Operatsion tizimning rivojlanish tarixi 3 - avlod nechinchi yillarni o'z ichiga oladi.
++ 1965 - 1980
+- 1945 - 1955
+- 1955 - 1965
+- 1985 - 1995
+
+
+
+# Operatsion tizimning rivojlanish tarixi 4 - avlod nechinchi yillarni o'z ichiga oladi.
++ 1980 yildan to hozirgacha
+- 1965 - 1980
+- 1955 - 1965
+- 1945 - 1955
+
+
+
+# Birinchi avlod kompyuterlari analitik mashina kim tamonidan yaratilgan.
++ Charles Babbage
+- Inix Helton
+- Shelton Holmz
+- Daniel Tompson
+
+
+
+# Qaysi avlod tizimlaridan boshlab operatsion tizimlar o'rnatila boshlagan.
++ 2 - avlod
+- 1 - avlod
+- 3 - avlod
+- 4 - avlod
+
+
+
+# Nechilchi yillardan boshlab paketli operatsion tizimlar ishlab chiqarilgan.
++ 1960 yil
+- 1945 yil
+- 1985 yil
+- 1970 yil
+
+
+
+# 4 - avlod kampyuterlariga qanday kompyuterlar kiradi
++ Personal va super kompyuterlar
+- Lampali
+- Integral sxemali kompyuterlar
+- hali yaratilmagan
+
+
+
+# Multipleksing bu
++ resurslar ishlashining ketma – ketligi va davomiyligi
+- Drayverlar jamlanmasi
+- amaliy dasturlar jamlanmasi
+- to'g'ri javob berilmagan
+
+
+
+# Multipleksing necha xil ko'rinishda bo'ladi
++ 2
+- 3
+- 1
+- 4
+
+
+
+# Multipleksingning ikki xil ko'rinishi bor bular
++ Vaqtinchalik, Ajratilgan xotira
+- Ajratilmagan xotira, Doimiy xotira
+- Qobiq, Drayverlar
+- Interfeyslar, amaliy dasturlar
+
+
+
+# Trap bu
++ operasion tizim va hisoblash tizimlarida bu istisno yoki xatolik deb qabul qilinadi
+- Operativ xotiradan kerakli joy ajratadi va dastur bundan hohlagancha resurslar ketma-ketlikda ishlatadi
+- Drayverlarni o'rnatadi
+- Qurilmalarni o'rnatadi
+
+
+
+# Boot Loader – bu
++ Operasion tizimni yuklovchi — bu Boot Record va Sistem Bootstrap dasturli modulidir
+- Operativ xotiradan kerakli joy ajratadi va dastur bundan hohlagancha resurslar ketma-ketlikda ishlatadi
+- Operasion tizim va hisoblash tizimlarida bu istisno yoki xatolik deb qabul qilinadi
+- Qurilmalarni o'rnatadi
+
+
+
+# Interrupts (Uzilish) – bu
++ bir dasturni bajarilishini hozirgi vaqtda yanada muhimroq boshqa dasturni tezkor bajarish maqsadida vaqtincha to’xtatilishidir
+- Operativ xotiradan kerakli joy ajratadi va dastur bundan hohlagancha resurslar ketma-ketlikda ishlatadi
+- Operasion tizimni yuklovchi — bu Boot Record va Sistem Bootstrap dasturli modulidir
+- operasion tizim va hisoblash tizimlarida bu istisno yoki xatolik deb qabul qilinadi
+
+
+
+# Masalalarni qayta ishlash rejimi bo'yicha operatsion tizimlar sinflanishi
++ bir vazifali , ko'p vazifali
+- bir vazifali
+- ko'p vazifali
+- ko'p foydalanuvchi
+
+
+
+# O'zaro bog'lanish bo'yicha operatsion tizimlar sinflanishi
++ bir foydalanuvchi va ko'p foydalanuvchi
+- bir vazifali , ko'p vazifali
+- ko'p vazifali
+- ko'p foydalanuvchi
+
+
+
+# Meynfraymlar bu
++ OT lari kiritish/chiqarish amallari ko’p bo’lgan, bir vaqtda bajaradigan topshiriqlar to’plamiga ishlov berishga yo’naltirilgan
+- Hajmi va bajaradigan amallar tezligi jihatidan katta kompyuterlardan kamida bir pog’ona pastdir.
+- Hajmi va bajaradigan amallar tezligi jihatidan katta kompyuterlardan kamida bir pog’ona pastdir. Shuni aytish joizki, ularning o’lchamlari tobora ixchamlashib, hatto shaxsiy kompyuterdek kichik joyni egallaydiganlari yaratilmoqda
+- Juda katta tezlikni talab qiladigan va katta hajmdagi masalalarni yechish uchun mo’ljallangan bo’ladi. Bunday masalalar sifatida ob-havoning global prognoziga oid masalalarni, uch o’lchovli fazoda turli oqimlarning kechishini o’rganish masalalarini keltirish mumkin. Bu kompyuterlar bir sekundda 10 trilliardlab amal bajaradi.
+
+
+
+# Mikrokompyuterlar bu
++ Hajmi va bajaradigan amallar tezligi jihatidan katta kompyuterlardan kamida bir pog’ona pastdir. Shuni aytish joizki, ularning o’lchamlari tobora ixchamlashib, hatto shaxsiy kompyuterdek kichik joyni egallaydiganlari yaratilmoqda
+- Hajmi va bajaradigan amallar tezligi jihatidan katta kompyuterlardan kamida bir pog’ona pastdir.
+- OT lari kiritish/chiqarish amallari ko’p bo’lgan, bir vaqtda bajaradigan topshiriqlar to’plamiga ishlov berishga yo’naltirilgan
+- juda katta tezlikni talab qiladigan va katta hajmdagi masalalarni yechish uchun mo’ljallangan bo’ladi. Bunday masalalar sifatida ob-havoning global prognoziga oid masalalarni, uch o’lchovli fazoda turli oqimlarning kechishini o’rganish masalalarini keltirish mumkin. Bu kompyuterlar bir sekundda 10 trilliardlab amal bajaradi.
+
+
+
+# Super komputerlar bu
++ juda katta tezlikni talab qiladigan va katta hajmdagi masalalarni yechish uchun mo’ljallangan bo’ladi. Bunday masalalar sifatida ob-havoning global prognoziga oid masalalarni, uch o’lchovli fazoda turli oqimlarning kechishini o’rganish masalalarini keltirish mumkin. Bu kompyuterlar bir sekundda 10 trilliardlab amal bajaradi.
+- Hajmi va bajaradigan amallar tezligi jihatidan katta kompyuterlardan kamida bir pog’ona pastdir.
+- OT lari kiritish/chiqarish amallari ko’p bo’lgan, bir vaqtda bajaradigan topshiriqlar to’plamiga ishlov berishga yo’naltirilgan
+- Hajmi va bajaradigan amallar tezligi jihatidan katta kompyuterlardan kamida bir pog’ona pastdir. Shuni aytish joizki, ularning o’lchamlari tobora ixchamlashib, hatto shaxsiy kompyuterdek kichik joyni egallaydiganlari yaratilmoqda
+
+
+
+# Minikompyuterlar – bu ...
++ Hajmi va bajaradigan amallar tezligi jihatidan katta kompyuterlardan kamida bir pog’ona pastdir. Shuni aytish joizki, ularning o’lchamlari tobora ixchamlashib, hatto shaxsiy kompyuterdek kichik joyni egallaydiganlari yaratilmoqda
+- Hajmi va bajaradigan amallar tezligi jihatidan katta kompyuterlardan kamida bir pog’ona pastdir.
+- OT lari kiritish/chiqarish amallari ko’p bo’lgan, bir vaqtda bajaradigan topshiriqlar to’plamiga ishlov berishga yo’naltirilgan
+- Juda katta tezlikni talab qiladigan va katta hajmdagi masalalarni yechish uchun mo’ljallangan bo’ladi. Bunday masalalar sifatida ob-havoning global prognoziga oid masalalarni, uch o’lchovli fazoda turli oqimlarning kechishini o’rganish masalalarini keltirish mumkin. Bu kompyuterlar bir sekundda 10 trilliardlab amal bajaradi.
+
+
+
+# Operatsion tizimlar tuzilishiga ko'ra sinflanishi
++ Monolit, ko'p sathli, Klient -Server, Mikro yadroli
+- Monolit, Ko'p sathli
+- Klient - server
+- Mikro yadroli
+
+
+
+# Monolit operatsion tizimlar bu
++ bu biron bir aniq strukturaga ega bo’lmagan tuzilishga ega operatsion tizim hisoblanadi.
+- Faqat sever bilan ishlovchi OT
+- Faqat yadro bilan ishlovchi OT
+- To'g'ri javob berilmagan
+
+
+
+# Quyidagilardan qaysi biri Mikroyadroli operatsion tizim hisoblaniladi
++ linux
+- To'g'ri javob berilmagan
+- Windows
+- Solaris
+
+
+
+# Tizimli chaqiruv-
++ Operasion tizim va ishlayotgan dastur orasidagi interfeysni taminlab beradi
+- Xotiradan joy ajratib beradi
+- Xotirada saqlaydi
+- elektr manbaini ta'inlab beradi
+
+
+
+# Operatsion tizimga qo'yiladigan talablar bular
++ Barcha javoblar to'g'ri
+- dasturlar va a'luotlarni himoyalash
+- Samaradorlik, Moslashuvchanlik, Yangilanish
+- Ishonchlilik, Qulaylilik, aniqlik
+
+
+
+# BIOS bu
++ Bu doimiy xotira qurilmasida joylashgan bo'lib mikrodasturlar jamlanmasi bo'lib, quyi darajali kiritish/chiqarish amallarni bajaradi
+- Tizimni ishlash jarayonini elektr ta'minot bilan taminlab beradi
+- amaliy dasturlarni boshqaradi
+- Barcha javoblar nato'g'ri
+
+
+
+# Drayverlar bu
++ Tashqi qurilmalarning fiziki darajada ishlashini boshqaruvchi dasturlardir
+- Tizimni ishlash jarayonini elektr ta'minot bilan taminlab beradi
+- amaliy dasturlarni boshqaradi
+- Bu doimiy xotira qurilmasida joylashgan bo'lib mikrodasturlar jamlanmasi bo'lib, quyi darajali kiritish/chiqarish amallarni bajaradi
+
+
+
+# Bir masalali OT ga qaysilar kiradi
++ MS-DOS, MSX
+- Windows, Unix, OS/2
+- MS-DOS, Windows 3.x, OS/2 dastlabki versiyasi
+- To'g'ri javob berilmagan
+
+
+
+# Ko'p masalali OT ga qaysilar kiradi
++ Windows, Unix, OS/2
+- MS-DOS, MSX
+- MS-DOS, Windows 3.x, OS/2 dastlabki versiyasi
+- To'g'ri javob berilmagan
+
+
+
+# Bir foydalanuvchilik OT ga qaysilar kiradi
++ MS-DOS, Windows 3.x, OS/2 dastlabki versiyasi
+- Windows, Unix, OS/2
+- MS-DOS, MSX
+- To'g'ri javob berilmagan
+
+
+
+# Ko'p foydalanuvchilik OT ga qaysilar kiradi
++ Windows, Unix, OS/2
+- MS-DOS, MSX
+- MS-DOS, Windows 3.x, OS/2 dastlabki versiyasi
+- To'g'ri javob berilmagan
+
+
+
+# Operatsion tizim qobiqlari
++ Foydalanuvchi uchun tizim funksiyalaridan unumli foydalanish interfeysini ta'inlab beruvchi dasturlar
+- Xotirani boshqarish qurilasi
+- Tashqi qurilmani boshqarish qurilmasi
+- To'g'ri javob berilmagan
+
+
+
+# Quyidagi dasturlardan qaysi birlari grafik muxarrir hisoblanadi
++ Paint, Adobe Photoshop
+- Word
+- Excel
+- MS-DOS, MSX
+
+
+
+# FAT32, Ext2, NTFS — bu …
++ Paint, Adobe Photoshop
+- Word
+- Excel
+- MS-DOS, MSX
+
+
+
+# Windows operatsion tizimining boshqa operatsion tizimlardan tubdan farqi nimada?
++ GUI va bir nechta dasturlarni ishlatish qobiliyati
+- Hisoblashning ishonchliligi
+- Buyruq tili yo'qligi
+- Dialog operatsiyasi yo'qligi
+
+
+
+# Shaxsiy kompyuterlar uchun mo'ljallangan va bir nechta operatsion tizimlarni qo'llab-quvvatlaydigan birinchi ko'p dasturli, ko'p vazifali, ishonchli operatsion tizim
++ OS / 2
+- QNX
+- UNIX
+- Win NT
+
+
+
+# Tarmoq operatsion tizimlari funktsiyalarning ajratilishiga qarab tasniflanadi:
++ Bir martalik tarmoq OS va maxsus serverlarga ega OS
+- korporativ va mahalliy tarmoq
+- LAN va WAN
+- Korxona va bo'limlar tarmog'i
+
+
+
+# Tarmoq operatsion tizimlarini yaratishda bir nechta yondashuvlar mavjud bular:
++ Mahalliy operatsion tizimlar va qobiq, tarmoq funktsiyalari boshidanoq hisobga olingan
+- Mahalliy va Shell
+- Client va Server
+- Ob'ektga yo'naltirilgan yondashuv
+
+
+
+# Tarmoq operatsion tizimining masofaviy manbalar va xizmatlarga kirishni ta'minlovchi qismi;
++ Mijozlar qismi
+- Server qismi
+- Aloqa qismi
+- Mahalliy qism
+
+
+
+# O'z resurslarini ommaviy ravishda taqdim etadigan tarmoq operatsion tizimining bir qismi;
++ Server qismi
+- mijoz qismi
+- Aloqa qismi
+- Mahalliy qism
+
+
+
+# Tor ma'noda tarmoq operatsion tizimlari:
++ Shaxsiy kompyuterning tarmoqda ishlashini ta'minlaydigan operatsion tizimlari
+- Xabar almashish va resurslarni umumiy qoidalar asosida almashish maqsadida o'zaro ta'sir qiluvchi alohida kompyuterlarning operatsion tizimlari to'plami - protokollar
+- Boshqa kompyuterga kirishga imkon beruvchi operatsion tizimlar
+- Operatsion tizimlari Boshqa kompyuterlarga resurslarni etkazib berish
+
+
+
+# Vazifalari: uni ko'rish, qo'shish, o'qish, yozish va o'zgartirish (NTFS fayl tizimida) bu
++ standart qarorlari
+- Shaxsiy tasdiqlash
+- Maxsus tasdiqlashlar
+- Tashqi tasdiqlash
+
+
+
+# NTFS fayl tizimi
++ Yangi texnologik fayl tizimi
+- Juda ishonchli
+- disk maydonidan samarali foydalanadi
+- To'g'ri javob yo'q
+
+
+
+# Haqiqiy vaqtdagi operatsion tizimlar ana shunday tizimlardir bu
++ Kiruvchi ishlarni belgilangan vaqt oralig'ida qayta ishlashni oshirib yubormaslik
+- Dastur ob'ektning hozirgi holatiga qarab tanlanadi
+- Dastur rejalashtirilgan ish jadvallari asosida tanlanadi
+- Har xil texnologik ob'ektlar va jarayonlarni boshqaradi
+
+
+
+# Olti sathli kompyuterlarning nolinchi sathi qanday nomlanadi?
++ raqamli mantiqiy sath
+- mikroarxitektura sathi
+- buyruqlar to‘plami arxitekturasi sathi
+- operatsion tizim sathi
+
+
+
+# Olti sathli kompyuterlarning birinchi sathi qanday nomlanadi?
++ mikroarxitektura sathi
+- raqamli mantiqiy sath
+- buyruqlar to‘plami arxitekturasi sathi
+- operatsion tizim sathi
+
+
+
+# Olti sathli kompyuterlarning ikkinchi sathi qanday nomlanadi?
++ buyruqlar to‘plami arxitekturasi sathi
+- mikroarxitektura sathi
+- assembler sathi
+- amaliy tillar dasturchilari sathi
+
+
+
+# Olti sathli kompyuterlarning uchinchi sathi qanday nomlanadi?
++ operatsion tizim sathi
+- amaliy tillar dasturchilari sathi
+- buyruqlar to‘plami arxitekturasi sathi
+- mikroarxitektura sathi
+
+
+
+# Olti sathli kompyuterlarning to‘rtinchi sathi qanday nomlanadi?
++ assembler sathi
+- mikroarxitektura sathi
+- buyruqlar to‘plami arxitekturasi sathi
+- operatsion tizim sathi
+
+
+
+# Olti sathli kompyuterlarning beshinchi sathi qanday nomlanadi?
++ amaliy tillar dasturchilari sathi
+- mikroarxitektura sathi
+- buyruqlar to‘plami arxitekturasi sathi
+- assembler sathi
+
+
+
+# Raqamli mantiqiy sathning obyektlari qanday nomlanadi?
++ ventillar
+- triggerlar
+- registrlar
+- komparatorlar
+
+
+
+# Bir bitli xotira elementi deganda nima tushuniladi?
++ trigger
+- Registr
+- AND-elementi
+- NOT-elementi
+
+
+
+# Guruhga birlashtirilgan triggerlar yordamida nima hosil qilinadi?
++ registr
+- AND-elementi
+- komparator
+- invertor
+
+
+
+# Inkorlash elementining kirishi nechta bo‘lishi mumkin?
++ 1
+- 2
+- 3
+- ko‘p
+
+
+
+# NOT, NOT-AND, NOT-OR kabi elementlarning kirish signallari, ulardagi tranzistorlarning qaysi oyoqchasiga ulangan?
++ baza
+- kollektor
+- emmiter
+- ventil
+
+
+
+# NOT, NOT-AND, NOT-OR kabi elementlarning chiqish signallari, ulardagi tranzistorlarning qaysi oyoqchasidan olinadi?
++ kollektor
+- baza
+- emmiter
+- ventil
+
+
+
+# Mantiqiy funktsiya o‘zgaruvchilarining soni n-ga teng bo‘lsa, ushbu funktsiyaning xaqiqat jadvali necha qatordan iborat bo‘lishi kerak?
++ 2^n
+- 2^n+1
+- 2^n-1
+- 2^n
+
+
+
+# Uchta o‘zgaruvchili mantiqiy funksiyaning xaqiqat jadvali necha qatordan iborat bo‘ladi?
++ 8
+- 4
+- 3
+- 16
+
+
+
+# To‘rtta o‘zgaruvchili mantiqiy funksiyaning xaqiqat jadvali necha qatordan iborat bo‘ladi?
++ 16
+- 4
+- 8
+- 12
+
+
+
+# Beshta o‘zgaruvchili mantiqiy funtsiyaning xaqiqat jadvali necha qatordan iborat bo‘ladi?
++ 32
+- 5
+- 16
+- 10
+
+
+
+# 64 Kbaytli asosiy xotira adresining maksimal qiymati nechaga teng?
++ FFFF
+- FFFFF
+- FFFFFF
+- FFFF FFFF
+
+
+
+# 1 Mbaytli asosiy xotira adresining maksimal qiymati nechaga teng?
++ FFFFF
+- FFFF
+- FFFFFF
+- FFFF FFFF
+
+
+
+# 4 Gbaytli asosiy xotira adresining maksimal qiymati nechaga teng?
++ FFFF FFFF
+- FFFFF
+- FFFFFF
+- FFFF
+
+
+
+# Pentium oilasiga mansub protsessorlar asosida qurilgan kompyuterlarning asosiy xotirasida baytlar qanday tartibda joylashtiriladi?
++ teskari tartibda
+- to‘g‘ri tartibda
+- chapdan-o‘nga
+- pastdan-yuqoriga
+
+
+
+# SPARC oilasiga mansub protsessorlar asosida qurilgan kompyuterlarning asosiy xotirasida baytlar qanday tartibda joylashtiriladi?
++ to‘g‘ri tartibda
+- teskari tartibda
+- o‘ngdan-chapga
+- pastdan-yuqoriga
+
+
+
+# Asosiy xotirasida, baytlar to‘g‘ri tartibda joylashtirilgan kompyuter protsessori ko‘rsating.
++ UltraSPARC III
+- Pentium 4
+- 8051
+- SIMM
+
+
+
+# Asosiy xotirasida, baytlar teskari tartibda joylashtirilgan kompyuter protsessori ko‘rsating.
++ Pentium 4
+- UltraSPARC III
+- 8051
+- SIMM
+
+
+
+# Xozirgi shaxsiy  kompyuterlarda xotiraga murojaat qilishning necha xil rejimi mavjud?
++ 2
+- 3
+- 1
+- 4
+
+
+
+# Asosiy xotiraga murojaat qilishning real rejimida bitta segmentning xajmi nechaga teng?
++ 64 Kbayt
+- 4 Kbayt
+- 1 Mbayt
+- 32 Kbayt
+
+
+
+# Asosiy otiraga murojaat qilishning himoyalangan rejimida bitta sahifaning xajmi nechaga teng?
++ 4 Kbayt
+- 64 Kbayt
+- 1 Mbayt
+- 32 Kbayt
+
+
+
+# Intel protsessorlari oilasining, Core duo protsessoridan avvalgi protsessorlari ishlatilgan  kompyuterlarda birinchi sath kesh xotirasining maksimal xajmi nechaga teng bo‘lishi mumkin?
++ 64 Kbayt
+- 16 Kbayt
+- 32 Kbayt
+- 1 Mbayt
+
+
+
+# Intel protsessorlari oilasining, Core duo protsessoridan avvalgi protsessorlari ishlatilgan  kompyuterlarda ikkinchi sath kesh xotirasining maksimal xajmi nechaga teng bo‘lishi mumkin?
++ 1 Mbayt
+- 64 Kbayt
+- 128 Kbayt
+- 2 Mbayt
+
+
+
+# Intel protsessorlari oilasining, Core duo protsessoridan avvalgi protsessorlari ishlatilgan  kompyuterlarda uchinchi sath kesh xotirasining maksimal xajmi nechaga teng bo‘lishi mumkin?
+- bir necha megabaytga
++ 64 Kbayt
+- 512 Kbayt
+- 1 Mbayt
+
+
+
+# Ulanish nuqtalari bir tomonda joylashgan xotira modullari qanday nomlanadi?
++ SIMM
+- DIMM
+- SISD
+- RISC
+
+
+
+# Ulanish nuqtalari ikki tomonda joylashgan xotira modullari qanday nomlanadi?
++ DIMM
+- SIMM
+- CISC
+- RISC
+
+
+
+# D-triggerlar asosida qurilgan tezkor xotira qurilmasini ko‘rsating.
++ statik tezkor xotira qurilmasi (SRAM)
+- dinamik tezkor xotira qurilmasi (DRAM)
+- FPM dinamik xotira qurilmasi
+- EDO dinamik xotira qurilmasi
+
+
+
+# Axborotni o‘chirish va qayta yozish mumkin bo‘lgan programmalanadigan doimiy xotira qurilmasini ko‘rsating.
++ EPROM
+- PROM
+- ROM
+- DRAM
+
+
+
+# Ko‘chirib yozish buyruqlarini ko‘rsating.
++ MOV, PUSH
+- ADD, SUB
+- INC, DEC
+- CMP, RST
+
+
+
+# Arifmetik buyruqlarni ko‘rsating.
++ ADD, SUB
+- MOV, PUSH
+- INC, DEC
+- CMP, RST
+
+
+
+# Ikkita operandalar ustida amallar bajarish buyruqlarini ko‘rsating.
++ ADD, SUB
+- MOVE, LOAD
+- INC, DEC
+- IN, OUT
+
+
+
+# Bitta operanda ustida amallar bajarish buyruqlarini ko‘rsating.
++ INC, DEC
+- MUL, ADC
+- ADD, SUB
+- AND, OR
+
+
+
+# Boshqarishni uzatish buyruqlarini ko‘rsating.
++ JMP, CALL
+- ADD, SUB
+- MOV, PUSH
+- INC, DEC
+
+
+
+# Ma’lumotlarni kiritish-chiqarish buyruqlarini ko‘rsating.
++ IN, OUT
+- MOVE, LOAD
+- INC, DEC
+- ADD, SUB
+
+
+
+# Kompyuter xotirasini iyerarxik ko‘rinishda tashkil yetishda, iyerarxiyaning eng yuqori qismida joylashgan xotirani ko‘rsating.
++ ichki registrlar
+- kesh xotira
+- asosiy xotira
+- magnitli disk
+
+
+
+# Kompyuter xotirasini iyerarxik ko‘rinishda tashkil yetishda, iyerarxiyaning ikkinchi qatorida joylashgan xotirani ko‘rsating.
++ kesh xotira
+- ichki registrlar
+- asosiy xotira
+- magnitli disk
+
+
+
+# Kompyuter xotirasini iyerarxik ko‘rinishda tashkil yetishda, iyerarxiyaning uchinchi qatorida joylashgan xotirani ko‘rsating.
++ asosiy xotira
+- ichki registrlar
+- kesh xotira
+- magnitli disk
+
+
+
+# Kompyuter xotirasini iyerarxik ko‘rinishda tashkil yetishda, iyerarxiyaning to‘rtinchi qatorida joylashgan xotirani ko‘rsating.
++ magnitli disk
+- ichki registrlar
+- asosiy xotira
+- kesh xotira
+
+
+
+# Kompyuter xotirasini iyerarxik ko‘rinishda tashkil yetishda, iyerarxiyaning beshinchi qatorida joylashgan xotirani ko‘rsating.
++ optik disk
+- ichki registrlar
+- asosiy xotira
+- magnitli disk
+
+
+
+# Magnitli disk yo‘lkasini tashkil yetuvchi sektorlari qanday uzunlikka ega?
++ 512 bayt
+- 256 bayt
+- 1 Kbayt
+- 2 Kbayt
+
+
+
+# Kichik hisoblash tizimlarining interfeyslariga ega disklar deganda qanday disklar tushuniladi?
++ SCSI disklar
+- IDE disklar
+- EIDE disklar
+- RAID disklar
+
+
+
+# Magnitli disklar asosida qurilgan, ma’lumotlarni tezkor kiritish-chiqarish qurilmasi qanday nomlanadi?
++ RAID disklar
+- IDE disklar
+- EIDE disklar
+- SCSI disklar
+
+
+
+# 4 Gbaytli asosiy xotiraga ega bo‘lgan kompyuterlarda, adres shinasi necha razryadga teng bo‘ladi?
++ 32
+- 20
+- 16
+- 36
+
+
+
+# 8 Gbaytli asosiy xotiraga ega bo‘lgan kompyuterlarda, adres shinasi necha razryadga teng bo‘ladi?
++ 33
+- 16
+- 36
+- 20
+
+
+
+# Sanoatdagi standart arxitekturali shinani ko‘rsating.
++ ISA
+- EISA
+- PCI
+- AGP
+
+
+
+# Sanoatdagi kengaytirilgan standart arxitekturali shinani ko‘rsating.
++ EISA
+- ISA
+- PCI
+- AGP
+
+
+
+# Kompyuterning tashqi tashkil etuvchi qurilmalarni o‘zaro birgalikda ishlashini ta’minlovchi shinani ko‘rsating.
++ PCI
+- ISA
+- EISA
+- AGP
+
+
+
+# Tez ishlaydigan grafik port shinasini ko‘rsating.
++ AGP
+- ISA
+- EISA
+- PCI
+
+
+
+# Ma’lumotlarni ketma-ket uzatuvchi universal shinani ko‘rsating.
++ USB
+- ISA
+- EISA
+- PCI
+
+
+
+# Tarmoq interfeysi qurilmasini ko‘rsating.
++ NID
+- DSLAM
+- ADSL
+- USB
+
+
+
+# ASCII kodi qanday uzunliklarga ega bo‘lishi mumkin?
++ 7 yoki 8 bit
+- 11 yoki 12 bit
+- 4 yoki 5 bit
+- 16 bit
+
+
+
+# IS 10646 xalqaro standarti deb e’lon qilingan UNICODE-kodining uzunligi nechaga teng?
++ 16 bit
+- 12 bit
+- 8 bit
+- 10 bit
+
+
+
+# IS 10646 xalqaro standarti deb e’lon qilingan kodni ko‘rsating.
++ UNICODE
+- ASCII
+- DCOI
+- COI
+
+
+
+# Protsessor asosiy xotiradan ma’lumotlarni o‘qish uchun, shina orqali qaysi boshqarish signallari bilan xotiraga murojaat qiladi?
++ MREQ, RD
+- MREQ, WD
+- CLK, RD
+- MSDN, RD
+
+
+
+# Protsessor asosiy xotiradan ma’lumotlarni o‘qish uchun, shina orqali xotiraga murojaat qilish signalini ko‘rsating.
++ MREQ
+- SSDN
+- WAIT
+- MSDN
+
+
+
+# Monitorda rang hosil qilishda qanday ranglardan foydalaniladi?
++ qizil, ko‘k, yashil
+- qora, oq, ko‘k
+- sariq, qizil, oq
+- yashil, qora, sariq
+
+
+
+# PCI Express shinasi, kompyuter tarkibiga kirgan qurilmalarni bog‘lashda, qanday rolni bajaradi?
++ universal kommutator
+- shinalararo ko‘prik
+- ma’lumotlarni parallel uzatish
+- ma’lumotlarni ketma-ket uzatish
+
+
+
+# Protsessor tarkibidagi muhim registrlardan biri bo‘lgan buyruqlar sanagichi registrini ko‘rsating.
++ PC
+- AX
+- SP
+- BP
+
+
+
+# Protsessorning IP yoki EIP registri deganda qanday registr tushuniladi?
++ buyruqlarni ko‘rsatuvchi registr
+- bayroqlar registri
+- segment registri
+- birinchi operandaning registri
+
+
+
+# Asosiy xotiraning dasturning buyruqlari  yoziladigan qismi nima deb ataladi?
++ kodlar yoziladigan segment
+- ma’lumotlar yoziladigan segment ma’lumotlar segmenti
+- xotiraning umumiy maqsadlar uchun
+- foydalaniladigan qismi
+
+
+
+# AX yoki EAX registri deganda nima tushuniladi?
++ akkumulyator
+- buyruqlar sanagichi registri
+- buyruqlar ko‘rsatgichi
+- bayroqlar registri
+
+
+
+# SF yoki EFLAGS registri deganda qaysi registr tushuniladi?
++ bayroqlar registri
+- buyruqlar sanagichi registri
+- buyruqlar ko‘rsatgichi
+- akkumulyator
+
+
+
+# CS registri deganda qaysi registr tushuniladi?
++ kodlar yoziladigan segment registri
+- ma’lumotlar yoziladigan segment registri
+- stek registri
+- qo‘shimcha segment registri
+
+
+
+# Umumiy maqsadlar uchun mo‘ljallangan registrlarni ko‘rsating.
++ AX, EAX
+- SI, ESI
+- DI, EDI
+- SP, ESP
+
+
+
+# Pentium 4 protsessori tarkibida nechta tranzistor bor?
++ 42 000 000
+- 29 000 000
+- 9 500
+- 550 000
+
+
+
+# Pentium 4 protsessorida «qatorining kengligi» qanday qiymatga ega?
++ 0,18 mkm
+- 0,13 mkm
+- 0,20 mkm
+- 0,22 mkm
+
+
+
+# UltraSPARC III protsessori tarkibida nechta tranzistor bor?
++ 29 000 000
+- 42 000 000
+- 9 500
+- 550 000
+
+
+
+# Pentium 4 protsessori mikroarxitekturasi qanday nomlanadi?
++ NetBurst
+- P6
+- P9
+- Version 9 SPARC
+
+
+
+# Pentium 4 protsessori mikrosxemasi nechta chiqish oyoqchalariga ega?
++ 478
+- 1368
+- 578
+- 600
+
+
+
+# UltraSPARC III protsessori mikrosxemasi nechta chiqish oyoqchalariga ega?
++ 1368
+- 478
+- 578
+- 600
+
+
+
+# Pentium 4 protsessori mikrosxemasida axborot signallari uchun nechta ulanish nuqtalari ajratilgan?
++ 198
+- 180
+- 85
+- 300
+
+
+
+# Besh sathli konveyerning birinchi bosqichida (C1) nima amalga oshiriladi?
++ bajarilishi kerak bo‘lgan buyruqni tanlash
+- buyruqni dekodlash
+- operandalarni tanlash
+- buyruqni bajarish
+
+
+
+# Besh sathli konveyerning ikkinchi bosqichida (C2) nima amalga oshiriladi?
++ buyruqni dekodlash
+- buyruqni tanlash
+- operandalarni tanlash
+- buyruqni bajarish
+
+
+
+# Besh sathli konveyerning uchinchi bosqichida (C3) nima amalga oshiriladi?
++ operandalarni tanlash
+- buyruqni dekodlash
+- natijalarni xotiraga yoki registrlarga yozish
+- buyruqni bajarish
+
+
+
+# Besh sathli konveyerning to‘rtinchi bosqichida (C4) nima amalga oshiriladi?
++ buyruqni bajarish
+- buyruqni dekodlash
+- operandalarni tanlash
+- natijalarni xotiraga yoki registrlarga yozish
+
+
+
+# Besh sathli konveyerning beshinchi bosqichida (C5) nima amalga oshiriladi?
++ natijalarni xotiraga yoki registrlarga yozish
+- buyruqni dekodlash
+- operandalarni tanlash
+- buyruqni bajarish
+
+
+
+# Bajariladigan buyruqni tanlash besh sathli konveyerning qaysi bosqichida amalga oshiriladi?
++ S1
+- S2
+- S3
+- S4
+
+
+
+# Bajariladigan buyruqni dekodlash besh sathli konveyerning qaysi bosqichida amalga oshiriladi?
++ S2
+- S1
+- S3
+- S4
+
+
+
+# Operandalarni tanlash besh sathli konveyerning qaysi bosqichida amalga oshiriladi?
++ S3
+- S2
+- S1
+- S4
+
+
+
+# Buyruqni bajarish besh sathli konveyerning qaysi bosqichida amalga oshiriladi?
++ S4
+- S2
+- S3
+- S5
+
+
+
+# Natijani xotiraga yoki registrlarga yozish besh sathli konveyerning qaysi bosqichida amalga oshiriladi?
++ S5
+- S2
+- S3
+- S4
+
+
+
+# To‘liq buyruqlar to‘plamiga ega kompyuter qanday nomlanadi?
++ CISC
+- RISC
+- P6
+- MIPS
+
+
+
+# Qisqartirilgan buyruqlar to‘plamiga ega kompyuter qanday nomlanadi?
++ RISC
+- CISC
+- P6
+- MIPS
+
+
+
+# Protsessor siklining birinchi bosqichida nima amalga oshiriladi?
++ RS yordamida bajarilishi kerak bo‘lgan
+buyruq tanlab olinadi
+- RS-ning qiymati orttiriladi
+- buyruq dekodlanadi
+- buyruqni bajarish uchun kerak bo‘ladigan ma’lumotlar xotiradan yoki registrlardan tanlab olinadi
+
+
+
+# Protsessor siklining ikkinchi bosqichida nima amalga oshiriladi?
++ RS-ning qiymati orttiriladi
+- RS yordamida bajarilishi kerak bo‘lgan
+buyruq tanlab olinadi
+- buyruq dekodlanadi
+- buyruq bajariladi
+
+
+
+# Protsessor siklining uchinchi bosqichida nima amalga oshiriladi?
++ buyruq dekodlanadi
+- RS yordamida bajarilishi kerak bo‘lgan buyruq tanlab olinadi
+- buyruq bajariladi
+- RS-ning qiymati orttiriladi
+
+
+
+# Protsessor siklining to‘rtinchi bosqichida nima amalga oshiriladi?
++ buyruqni bajarish uchun kerak bo‘ladigan ma’lumotlar xotiradan yoki registrlardan tanlab olinadi
+- RS-ning qiymati orttiriladi
+- RS yordamida bajarilishi kerak bo‘lgan buyruq tanlab olinadi
+- natijalarni xotiraga yoki registrlarga yozish
+
+
+
+# Protsessor siklining beshinchi bosqichida nima amalga oshiriladi?
++ buyruq bajariladi
+- natijalarni xotiraga yoki registrlarga yozish
+- RS-ning qiymati ortiriladi
+- RS yordamida bajarilishi kerak bo‘lgan buyruq tanlab olinadi
+
+
+
+# Protsessor siklining oltinchi bosqichida nima amalga oshiriladi?
++ natijalarni xotiraga yoki registrlarga yozish
+- RS-ning qiymati orttiriladi
+- keyingi buyruqni bajarish tsikliga o‘tish
+- buyruq bajariladi
+
+
+
+# Protsessor siklining yettinchi bosqichida nima amalga oshiriladi?
++ keyingi buyruqni bajarish tsikliga o‘tish
+- RS-ning qiymati orttiriladi
+- buyruq bajariladi
+- natijalarni xotiraga yoki registrlarga yozish
+
+
+
+# Protsessor sikli nechta bosqichidan iborat?
++ 7
+- 6
+- 5
+- 4
+
+
+
+# Protsessor siklining qaysi bosqichida buyruqni
+bajarish amalga oshiriladi?
++ 5
+- 6
+- 7
+- 4
+
+
+
+# Protsessor siklining qaysi bosqichida buyruqni tanlab olish amalga oshiriladi?
++ 1
+- 2
+- 3
+- 4
+
+
+
+# Protsessor siklining qaysi bosqichida buyruqni dekodlash amalga oshiriladi?
++ 3
+- 2
+- 5
+- 4
+
+
+
+# Protsessor siklining qaysi bosqichida natijalarini xotiraga yoki registrlarga yozish amalga oshiriladi?
++ 6
+- 7
+- 3
+- 4
+
+
+
+# Quyida keltirilgan kompyuter tarmoqlarining qaysi biri avval paydo bo’lgan?
++ global kompyuter tarmoqlari
+- lokal kompyuter tarmoqlari
+- kampuslar tarmog’i
+- korporativ tarmoqlar
+
+
+
+# To’rtta bir-biri bilan bog’langan bog’lamlar strukturasi (kvadrat shaklida) qaysi topologiya turiga mansub?
++ Xalqa
+- Yulduz
+- To’liq bog’lanishli
+- Yacheykali
+
+
+
+# Ketma-ket bir-biri bilan bog’langan 3 ta bog’lamlar (oxiri boshi bilan bog’lanmagan) strukturasi qaysi topologiya turiga tegishli?
++ Umumiy shina
+- Xalqa
+- To’liq bog’lanishli
+- Yulduz
+
+
+
+# Kompyuter tizimlarida ma’lumotlarni uzatish ishonchliligini oshirish uchun nima qilinadi?
++ kontrol summani xisoblash bilan
+- ma’lumotni bir necha marta uzatish bilan axborotni ishonchliligini tekshirishning majoritar usulini  maxsus apparat-programma vositalari yordamida
+- axborotni ishonchliligini tekshirishning majoritar usulini
+- maxsus apparat-programma vositalari yordamida
+
+
+
+# Qaysi topologiya birgalikda foydalanilmaydigan muhitni qo’llamasligi mumkin?
++ To’liq bog’lanishli
+- Xalqa
+- Umumiy shina
+- Yulduz
+
+
+
+# Topologiyalardan qaysi biri ishonchliligi yuqori hisoblanadi?
++ Yulduz
+- Xalqa
+- Umumiy shina
+- To’liq bog’lanishli
+
+
+
+# MAC satxi qanday vazifani bajaradi?
++ uzatish muhitiga murojaat qilishni boshqarish
+- stantsiyalar o’rtasida axborotni har-xil ishonchlilik darajasi bilan uzatish
+- bitlar sathida axborot uzatishni boshqarish
+- bloklar sathida axbo-rot uzatishni boshqarish
+
+
+
+# LLC satxi qanday vazifani bajaradi?
++ stantsiyalar o’rtasida axborotni har-xil ishonchlilik darajasi bilan uzatish
+- bitlar sathida axborot uzatishni boshqarish
+- bloklar sathida axborot uzatishni boshqarish
+- uzatish muhitiga murojaat qilishni boshqarish
+
+
+
+# 10Base-2 segmentining uzunligi ko’pi bilan qancha bo’lishi mumkin?
++ 185 metr
+- 100 metr
+- 200 metr
+- 500 metr
+
+
+
+# O’ralma juftlik kabeli simlarini, uning konnektorlariga ulashning necha xil variantlari mavjud?
++ 2
+- 3
+- 4
+- 1
+
+
+
+# Ethernet tarmoqlarida uzatish muhitiga murojaat qilishning qaysi usuli qo’llaniladi?
++ CSMA/CD
+- CSTK/CE
+- CSQE/NQ
+- CSTK/QL
+
+
+
+# Ethernet da kommutatsiyalashning qaysi xilidan foydalaniladi?
++ paketlarni deytagrammali kommutatsiyalash
+- paketlarni virtual kanal orqali uzatish
+- vaqtni taqsimlash aso-sida kanallarni kommu-tatsiyalash
+- chastotali multi-plekslash asosida kanallarni kommu-tatsiyalash
+
+
+
+# Optik tolali Ethernet tarmog’ining maksimal uzunligi qanday?
++ 2740 m
+- 500 m
+- 5000 m
+- 2500 m
+
+
+
+# 100Base-TX spetsifikatsiyasi qaysi texnologiyaga tegishli?
++ Fast Ethernet
+- Ethernet
+- Gigabit Ethernet
+- FDDI
+
+
+
+# Fast Ethernet texnologiyasi spetsifikatsiyalari qaysi komitet tarkibida ishlab chiqilgan?
++ 802.3
+- 802.1
+- 802.2
+- 802.5
+
+
+
+# Ethernet texnologiyasida koaksial kabelining ma’lumotlarni uzatish tezligi qanday?
++ 10 Mbit/s
+- 1 Mbit/s
+- 100 Mbit/s
+- 1000 Mbit/s
+
+
+
+# Fast Ethernet texnologiyasida o’ralma juftlik kabelining ma’lumotlarni uzatish tezligi qanday?
++ 100 Mbit/s
+- 1 Mbit/s
+- 10 Mbit/s
+- 1000 Mbit/s
+
+
+
+# Lokal tarmoqlarda keng tarqalgan topologiya turi qaysi?
++ Yulduz
+- Xalqa
+- Umumiy shina
+- To’liq bog’lanishli
+
+
+
+# 100Base-TX spetsifikatsiya qaysi texnologiyaga tegishli?
++ Fast Ethernet
+- Ethernet
+- Gigabit Ethernet
+- 10G Ethernet
+
+
+
+# 1000Base-SX spetsifikatsiya qaysi texnologiyaga tegishli?
++ Gigabit Ethernet
+- Ethernet
+- Fast Ethernet
+- 10G Ethernet
+
+
+
+# Fast Ethernet texnologiyasida qaysi turdagi kabel tizimlaridan foydalanilgan?
++ ko’pmodali optik tolali, 5 kategoriyali o’ralma juftlik, 3 kategoriyali o’ralma juftlik
+- bittamodali optik tolali , 5 kategoriyali o’ralma juftlik, 3 kategoriyali o’ralma juftlik
+- ingichka koaksial kabel, 5 kategoriyali o’ralma juftlik, 3 kategoriyali o’ralma juftlik
+- yo’g’on koaksial kabel, 5 kategoriyali o’ralma juftlik, 3 kategoriyali o’ralma juftlik
+
+
+
+# MАC sath osti satxi OSI modelining qaysi sathiga tegishli?
++ kanal sathiga
+- tarmoq sathiga
+- fizik sathiga
+- transport sathiga
+
+
+
+# Ethernet texnologiyasi nechta standartga ega?
++ 4
+- 3
+- 2
+- 6
+
+
+
+# Fast Ethernet texnologiyasi nechta spetsifikatsiyaga ega?
++ 3
+- 4
+- 2
+- 6
+
+
+
+# Umumiy shina topologiyali lokal tarmoqlarda kontsentratorlar qanday funktsiyani bajaradi?
++ Kompyuter tomonidan uzatilayotgan ma’lumotni barcha kompyuterga yo’naltiradi
+- Kompyuter tomonidan uzatilgan ma’lumotni boshqa bir kompyuterga yo’naltiradi
+- Kompyuter tomonidan uzatilgan ma’lumotni xalqa orqali keyingi kompyuterga yo’naltiradi
+- Tarmoqning ikki segmentini o’zaro bog’laydi
+
+
+
+# Simsiz tarmoqlar standartlari qaysi komitet tarkibida ishlab chiqilmoqda?
++ 802.11
+- 802.7
+- 802.6
+- 802.12
+
+
+
+# Xozirgi paytda ko’p ishlatiladigan, 802.11 standartiga tegishli spetsifikatsiyani ko’rsating
++ a, b, g
+- a, b, d
+- a, b, c
+- a, b, e
+
+
+
+# 802.11 spetsifikatsiyasi  simsiz lokal tarmog’i diametrining chegaralari qanday?
++ 100 - 300 m
+- 50 - 100 m
+- 300 – 400 m
+- 100 -200 m
+
+
+
+# Tarmoqni fizik strukturalashda qaysi qurilma ishlatiladi?
++ takrorlovchi (kontsentrator)
+- kommutator
+- ko’prik
+- shlyuz
+
+
+
+# Qaysi qurilma tarmoqning mantiqiy strukturasini o’zgartirishi mumkin?
++ ko’prik, marshrutizator,kommutator va shlyuz
+- faqat kommutator
+- takrorlovchi
+- kontsentrator
+
+
+
+# Kompyuter tarmog’ining fizik strukturalash nima maqsadda amalga oshiriladi?
++ Tarmoq  diametrini oshirish uchun
+- Unumdorlikni oshirish uchun
+- Internetga ulanish uchun
+- Tarmoqosti tarmoqlarini bog’lashni amalga oshirish uchun
+
+
+
+# Kompyuter tarmog’ining mantiqiy strukturalash nima maqsadda amalga oshiriladi?
++ Trafikni lokallashtirish uchun
+- Internetga ulanish uchun
+- Tarmoq  diametrini oshirish uchun
+- Tarmoqosti tarmoqlarini bog’lashni amalga oshirish uchun
+
+
+
+# Kommutator ko’prikdan nimasi bilan farq qiladi?
++ Kadrlarni parallel qayta ishlashda
+- Tarmoqqa ulanish usulida
+- Kadrlarni uzatish algoritmida
+- Kadrlarni uzatish usulida
+
+
+
+# OSI modelida nechta sath mavjud?
++ 7
+- 4
+- 5
+- 6
+
+
+
+# OSI modelining to’rtinchi satxi qanday nomlanadi?
++ Transport sathi
+- Аmaliy sath
+- Seanslar sathi
+- Taqdimlash  sathi
+
+
+
+# OSI modelining beshinchi satxi qanday nomlanadi?
++ Seanslar  sathi
+- Transport sathi
+- Seanslar sathi
+- Taqdimlash  sathi
+
+
+
+# OSI modelining birinchi satxi qanday nomlanadi?
++ Fizik sath
+- Transport sathi
+- Seanslar sathi
+- Taqdimlash  sathi
+
+
+
+# OSI modelining ikkinchi satxi qanday nomlanadi?
++ Kanal  sathi
+- Аmaliy  sathi
+- Seanslar sathi
+- Taqdimlash  sathi
+
+
+
+# OSI modelining uchinchi satxi qanday nomlanadi?
++ Tarmoq  sathi
+- Аmaliy  sathi
+- Seanslar sathi
+- Taqdimlash  sathi
+
+
+
+# OSI modelining oltinchi satxi qanday nomlanadi?
++ Taqdimlash  sathi
+- Аmaliy  sathi
+- Seanslar sathi
+- Kanal  sathi
+
+
+
+# OSI modelining yettinchi satxi qanday nomlanadi?
++ Аmaliy sath
+- Seanslar  sathi
+- Transport  sathi
+- Kanal  sathi
+
+
+
+# OSI modelining qaysi sathlari tarmoqqa bog’liq satxlar hisoblanadi?
++ fizik, kanal va tarmoq sathlari
+- seans va amaliy sathlar
+- amaliy va taqdimlash sathlari
+- transport va seans sathlari
+
+
+
+# OSI modelining tarmoq sathi vazifalari keltirilgan qurilmalarning qaysi birida bajariladi?
++ Marshrutizator
+- Ko’prik
+- Tarmoq adapter
+- Kontsentrator
+
+
+
+# OSI modelining kanal satxi orqali uzatiladigan ma’lumotlarning birligi qanday nomlanadi?
++ Kadr
+- Paket
+- Segment
+- Oqim
+
+
+
+# OSI modelining tarmoq satxi orqali uzatiladigan ma’lumotlarning birligi qanday nomlanadi?
++ Paket
+- Kadr
+- Xabar
+- Oqim
+
+
+
+# Еlektr signallarini qabul qilish va uzatish vazifalarini OSI modelining qaysi sathi bajaradi?
++ Fizik sath
+- Seanslar  sathi
+- Transport  sathi
+- Kanal  sathi
+
+
+
+# Ma’lumotlarni uzatishning optimal marshrutlarini aniqlash vazifalarini OSI modelining qaysi sathi bajaradi?
++ Tarmoq  sathi
+- Аmaliy  sathi
+- Seanslar sathi
+- Taqdimlash  sathi
+
+
+
+# Mijozlar dasturlari bilan o’zaro muloqot vazifalarini OSI modelining qaysi sathi bajaradi?
++ Аmaliy sath
+- Seanslar  sathi
+- Transport  sathi
+- Kanal  sathi
+
+
+
+# Keltirilgan protokollarning qaysilari tarmoq sathi protokollariga mansub?
++ IP, IPX
+- NFS, FTP
+- Ethernet, FDDI
+- TCP,UDP
+
+
+
+# Keltirilgan protokollarning qaysilari transport sathi protokollariga mansub?
++ TCP,UDP
+- NFS, FTP
+- Ethernet, FDDI
+- IP, IPX
+
+
+
+# Keltirilgan protokollarning qaysilari amaliy sathi protokollariga mansub?
++ NFS, FTP
+- TCP,UDP
+- 10Base-T, 100Base-T
+- IP, IPX
+
+
+
+# OSI modelining fizik sathi qanday funktsiyalarni bajaradi?
++ Elektr signallarini uzatish va qabul qilish
+- Аloqa kanalini va ma’lumotlarni uzatish muxitiga murojat qilishni boshqarish
+- Bog’lanish seansini yaratish, kuzatish, oxirigacha ta’minlash
+- Klient dasturlari bilan o’zaro muloqotda bo’lish
+
+
+
+# OSI modelining kanal sathi qaysi funktsiyalarni bajaradi?
++ Аloqa kanalini va ma’lumotlarni uzatish muxitiga murojat qilishni boshqarish
+- Klient dasturlari bilan o’zaro muloqotda bo’lish
+- Bog’lanish seansini yaratish, kuzatish, oxirigacha ta’minlash
+- Ma’lumotlarni kodlash va shifrlash
+
+
+
+# OSI modelining tarmoq sathi qanday funktsiyalarni bajaradi?
++ Ma’lumotlarni uzatish marshrutlarini optimalini aniqlash
+- Аloqa kanalini va ma’lumotlarni uzatish muxitiga murojat qilishni boshqarish
+- Ma’lumotlarni qabul qilish va uzatish jarayonida, ma’lumotlarni to’liq va to’g’ri uzatilishini nazorat qilish
+- Эlektr signallarini uzatish va qabul qilish
+
+
+
+# MАС-adres qanday uzunlikka ega?
++ 48 bit
+- 32 bit
+- 16 bit
+- 64 bit
+
+
+
+# IPv4 turidagi IP-adres qanday uzunlikka ega?
++ 32 bit
+- 48 bit
+- 16 bit
+- 64 bit
+
+
+
+# 192.190.21.254 adresi   IP-adreslarningqaysi sinfiga tegishli?
++ C
+- V
+- A
+- D
+
+
+
+# B sinfidagi tarmoq tarkibiga nechta bog’lam bo’lishi mumkin?
++ 65536
+- 256
+- 512
+- 1024
+
+
+
+# А  sinfidagi tarmoq tarkibiga nechta bog’lam bo’lishi mumkin?
++ 16777216
+- 256
+- 65536
+- 1024
+
+
+
+# B sinfidagi tarmoq maskasi qanday qiymatga ega?
++ 255.255.0.0
+- 255.0.0.0
+- 255.255.255.0
+- 255.255.254.0
+
+
+
+# Internet tarmog’i, kompyuter tarmoqlarining qaysi sinfiga mansub?
++ global tarmoq
+- lokal tarmoq
+- shahar tarmog’i
+- korporativ tarmog’i
+
+
+
+# Keltirilgan texnologiyalarning qaysi birlari global tarmoq texnologiyalariga mansub?
++ ATM, TCP/IP
+- Frame Relay, Token Ring
+- Ethernet, Internet
+- X.25, FDDI
+
+
+
+# MAN tarmoqlari nima uchun mo’ljallangan?
++ Yirik shaxar axolisiga xizmat ko’rsatish uchun
+- Internetga korxonalar tarmoqlarini ulash uchun
+- Faqat bir nechta lokal tarmoqlarni bog’lash uchun
+- Faqat korporativ tarmoqning filiallarini ulash uchun
+
+
+
+# 1980-1985 yillarda dastlabki lokal kompyuter tarmoqlari hisoblangan qanday lokal kompyuter tarmoqlari texnologiyalari ishlab chiqildi?
++ Ethernet, ArcNet, Token Ring, Token Bus va FDDI
+- Ethernet texnologiyasining 10Base-5
+- Token Ring va FDDI
+- Local Area Network, LAN
+
+
+
+# OSI modelida necha xil turdagi protokollar bor?
++ 3 xil
+- 2 xil
+- 4 xil
+- Bir nechta xildagi
+
+
+
+# Tarmoq ilovalari nima uchun xizmat qiladi?
++ Foydalanuvchilarga, kompyuter tarmog'i tomonidan ko'rsatilishi mumkin bo'lgan turli xil xizmatlarni amalga oshiruvchi dasturlar tushuniladi.
+- Global va lokal tarmoq ilovalari
+- Xizmatlarni amalga oshiruvchi dasturlar.
+- Kompyuter tarmog'ini qurish va ishlatish uchun etarli bo'lgan bir-biriga moslashtirilgan apparat va dasturiy vositalar to'plami, hamda aloqa chiziqlari orqali ma'lumotlarni uzatish imkonini beradigan uskunalar tushuniladi.
+
+
+
+# Kompyuter tarmog'i texnologiyalari deganda nimani tushunasiz?
++ Kompyuter tarmog'ini qurish va ishlatish uchun etarli bo'lgan bir-biriga moslashtirilgan apparat va dasturiy vositalar to'plami, hamda aloqa chiziqlari orqali ma'lumotlarni uzatish imkonini beradigan uskunalar tushuniladi
+- Foydalanuvchilarga, kompyuter tarmog'i tomonidan ko'rsatilishi mumkin bo'lgan turli xil xizmatlarni amalga oshiruvchi dasturlar tushuniladi.
+- Global va lokal tarmoq ilovalari
+- Xizmatlarni amalga oshiruvchi dasturlar.
+
+
+
+# TCP/IP steki nechta sathga ajratilgan?
++ To’rtta sathga
+- Beshta sathga
+- Ikkta sathga
+- Oltita sathga
+
+
+
+# FTP (File Transfer Protokol) qanday protokol?
++ Fayllarni uzatish protokoli
+- Terminalni emulasiya qilish protokoli
+- Elektron pochtani uzatishning oddiy protokoli
+- Gipermatnni uzatish protokoli
+
+
+
+# Telnet qanday protokol?
++ Terminalni emulasiya qilish protokoli
+- Fayllarni uzatish protokoli
+- Elektron pochtani uzatishning oddiy protokoli
+- Gipermatnni uzatish protokoli
+
+
+
+# ЅMTR (Simple Mail Transfer Protocol) qanday protokol?
++ Elektron pochtani uzatishning oddiy protokoli
+- Fayllarni uzatish protokoli
+- Terminalni emulasiya qilish protokoli
+- Gipermatnni uzatish protokoli
+
+
+
+# HTTP (Hyper Text Transfer Protocol) qanday vazifani bajarish uchun mo'ljallangan protokol?
++ Gipermatnni uzatish protokoli
+- Fayllarni uzatish protokoli
+- Terminalni emulasiya qilish protokoli
+- Elektron pochtani uzatishning oddiy protokoli
+
+
+
+# IP-protokol qanday vazifani bajaradi?
++ Paketlarni tarmoqlar o'rtasida bir marshrutizatordan boshqasiga, to paket, u yuborilgan tarmoqqa etib borguncha xarakatlantirish vazifasini bajaradi.
+- Paketlarni tarmoqlar o'rtasida bir marshrutizatordan boshqasiga yo’naltirish vazifasini bajaradi.
+- Yuborilgan ma’lumotlarni qayta ishlash vazifasini bajaradi
+- Paketlar bilan o’zaro ma’lumotlarni almashinish vazifasini bajaradi
+
+
+
+# IP-paket qanday qismlardan iborat bo'ladi?
++ Sarlavxa va ma'lumotlar yoziladigan qismlardan iborat
+- Ma’lumotlar saqlash va qayta ishlash qismlardan iborat
+- Yuborish va saralash qismlardan iborat
+- Ma’lumotlar yozish va yuborish qismlaridan iborat
+
+
+
+# IP-protokolining funktsional jihatdan sodda yoki murakkabligi nimalarga bog’liq?
++ IP-paketning sarlavxasi qay darajada sodda yoki murakkab ekanligiga bog'liq
+- IPlrning soddajoylashganligiga bog’liq
+- IP-paketning sarlavxasi murakkab ekanligiga bog'liqdir
+- IP-paketning sarlavxasi sodda ekanligiga bog'liqdir
+
+
+
+# IPv4-paket sarlavhasining uzunligi necha bitdan iborat?
++ 4 bitdan
+- 8 bitdan
+- 16 bitdan
+- 32 baytdan
+
+
+
+# Simsiz MAN tarmog’lari qanday texnologiyalarda quriladi?
++ WiMAX, LTE, sputnik
+- MAN, LAN
+- LTE, MAN, LAN, WiMAX
+- WiMax, MAN
+
+
+
+# IMS kommutator qanday vazifani baradi?
++ Shahar tarmoqlari turli tarmoqlar bir-biri bilan bog’lanish jarayonini nazorat qiladi.
+- An’anaviy kommutatsiya jarayonida OSI modelida ishlaydi.
+- Katta o’lchamli tarmoqlar orasida ko’prik vazifasini o’tashda.
+- Shahar tashqarisi tarmoqlari turli tarmoqlar bir-biri bilan bog’lanish jarayonini nazorat qiladi
+
+
+
+# Qanday tarmoqlar yirik lokal tarmoqlarni birlashtirish uchun foydalanilad?
++ Territorial magistral tarmoq
+- Magistral tarmoq
+- Global tarmoq
+- Territorial tarmoq
+
+
+
+# Markaziy lokal tarmoqlarni uzoqdan turib ulaish serveri?
++ RAS
+- IP
+- TCP
+- TCP/IP
+
+
+
+# ATM tehnologiyasining uzatish tezligi necha bit/sek larga yetkazilgan
++ 2-10 bit/sek
+- 6-20 bit/sek
+- 1-30 bit/sek
+- 2-20 bit/sek
+
+
+
+# RAS server qaysi dasturiy apparat kompleksdan iborat?
++ Mashrutizator, ko’prik, shlyar
+- Local, dasturiy vositalar
+- Territol, dasturiy vositalar
+- Magistral, dasturiy vositalar
+
+
+
+# Marshrutlash protakollari nechta sinfga bo’linadi?
++ 2 ta
+- 3 ta
+- 4 ta
+- 6 ta
+
+
+
+# Ichki shlyuz protokollari qanday protokollar bilan ishlaydi?
++ RIP, IBRP, OSPF, IS-IS
+- BBP, RIP, IS-IS
+- OSPF, B6P, TCP/IP
+- TCP/IP, IS-IS, RIP
+
+
+
+# Qanday protakol yo’llari ko’rsatilgan ma’lumotlarni tashqi tarmoqqa uzatadi?
++ BBP (bateway to bateway Protocol)
+- IBP (Interot bateway Protocol)
+- FTP (File Transfer Protocol)
+- TCP/IP Ptotocol
+
+
+
+# OSI modelining amaliy sathi qanday funktsiyalarni bajaradi?
++ Klient dasturlari bilan o’zaro muloqotda bo’lish
+- Аloqa kanalini va ma’lumotlarni uzatish muxitiga murojat qilishni boshqarish
+- Bog’lanish seansini yaratish, kuzatish, oxirigacha ta’minlash
+- Elektr signallarini uzatish va qabul qilish
+
+
+
+# Ulanish tarmoqlarini bog’lashni va yuqori tezlikdagi kanallar orqali trafik tranzitini ta’minlashni, qaysi tarmoq amalga oshiradi?
++ Magistral tarmoq
+- Аloqa operatorlari tarmog’i
+- Korporativ tarmoq
+- Bino tarmog’i
+
+
+
+# C  sinfidagi tarmoq tarkibiga nechta bog’lam bo’lishi mumkin?
++ 256 	
+- 65536
+- 512 	
+- 1024
+
+
+
+# А sinfidagi tarmoq maskasi qanday qiymatga ega?
++ 255.0.0.0
+- 255.255.0.0 	
+- 255.255.255.0
+- 255.0.0
+
+
+
+# C sinfidagi tarmoq maskasi qanday qiymatga ega?
++ 255.255.255.0
+- 255.0.0.0
+- 255.255.0.0
+- 255.255.240.0
+
+
+
+# 512 ta bog’lamli tarmoqosti tarmoq maskasi qanday qiymatga ega?
++ 255.255.254.0
+- 255.0.0.0
+- 255.255.0.0
+- 255.255.240.0
+
+
+
+# Internet tarmog’ida kommutatsiyalashning qaysi xili ishlatiladi?
++ paketlarni kommutatsiyalash
+- kanallarni kommutatsiyalash
+- xabarlarni kommutatsiyalash
+- alohida ajratilgan kanallarni kommutatsiyalash
+
+
+
+# UTP kabeli deganda qaysi kabel tushuniladi?
++ o’ralma juftlik kabeli
+- yo’g’on koaksial kabel
+- ingichka koaksial kabel
+- optik tolali kabel
+
+
+
+# Modem kanday asosiy vazifani bajaradi?
++ signallarni modulyatsiyalash - demodulyatsiyalash
+- parallel kodni ketma-ket kodga o’zgartirish
+- skrembrlash va deskrembrlash  analog signallarni raqamli kodga o’zgartirish
+- analog signallarni raqamli kodga o’zgartirish
+
+
+
+# Keltirilgan qurilmalarning qaysi biri DCE bo’ladi?
++ modem
+- marshrutizator
+- kompyuter
+- Klaviatura
+
+
+
+# Keltirilgan qurilmalarning qaysi biri DTE bo’ladi?
++ kompyuter va marshrutizator
+- modem
+- aloqa chiziqlari
+- kabellar
+
+
+
+# Keltirilgan protokollarning qaysilari fizik  sath protokollariga mansub?
++ 10Base-T, 100Base-T
+- TCP,UDP
+- IP, IPX
+- NFS, FTP
+
+
+
+# Keltirilgan protokollarning qaysilari taqdimlash sathi protokollariga mansub?
++ SNMP, Telnet
+- IP, IPX
+- Ethernet, FDDI 	
+- TCP,UDP
+
+
+
+# Keltirilgan protokollarning qaysilari saenslar sathi protokollariga mansub?
++ RPC, WSP
+- IP, IPX
+- Ethernet, FDDI
+- TCP,UDP
+
+
+
+# OSI modelining transport sathi qanday funktsiyalarni bajaradi?
++ Ma’lumotlarni qabul qilish va uzatish jarayonida, ma’lumotlarni to’liq va to’g’ri uzatilishini nazorat qilish
+- Bog’lanish seansini yaratish, kuzatish, oxirigacha ta’minlash
+- Ma’lumotlarni uzatish marshrutlarini optimalini aniqlash
+- Klient dasturlari bilan o’zaro muloqotda bo’lish
+
+
+
+# OSI modelining seanslar sathi qanday funktsiyalarni bajaradi
++ Bog’lanish seansini yaratish, kuzatish, oxirigacha ta’minlash
+- Klient dasturlari bilan o’zaro muloqotda bo’lish
+- Аloqa kanalini va ma’lumotlarni uzatish muxitiga murojat qilishni boshqarish
+- Elektr signallarini uzatish va qabul qilish
+
+
+
+# MS Sql Server2008 qanday tizim?
++ Foydalanuvchi interfeyslari so’rovnomalarga ishlov berishni optimizatsiyalovchi va tranzaksiyalovchi boshqarish tizimi.
+- Ma'lumotlar boshqarish tizimi.
+- Tranzaksiyalarga on-line rejimda ishlov berish tizimi.
+- Ma'lumotlarni qayta ishlash tizimi
+
+
+
+# Ma’lumotlarning yangi, obyektga yo’naltirilgan obyektga relyatsion deduktiv modellari qachon vujudga keldi.
++ 1980 yil o’rtalarida
+- 1980 yil boshida
+- 1970 yilda
+- 1995 yilda
+
+
+
+# (MBBT) qanday tizim?
++ Predmetga yo’naltirilgan ma’lumotlar bazasini boshqarish tizimi.
+- Ma'lumotlarni boshqarish tizimi.
+- Tranzaksiyalarga on-line rejimda ishlov berish tizimi.
+- Ma'lumotlarni qayta ishlash tizimi
+
+
+
+# On-line Analitical Processing OLAP qanday vazifani bajaradi ?
++ Ma’lumotlarni tozalash, ma’lumotlarni umumlashtirish, va ualarga on-line rejimda analitik ishlov berish
+- Ma'lumotlarni turkumlash.
+- Ma’lumotlarga on-line rejimda ishlov berish tizimi.
+- Ma'lumotlarni qayta ishlash.
+
+
+
+# Ma’lumotlarni chuqur taxlilashning qo’shimcha usullarini ko’rsating
++ klassifikatsiya, klasterizatsiya
+- Tranzaksiya, klasterizatsiya
+- Optimizatsiya, klassifikatsiya
+- Klasterizatsiya, tranzaksiya
+
+
+
+# MIT qaday jarayon?
++ Katta hajimdagi ma’lumotlardan yangi, korrekt bo’lgan va foydali axborotni ajratib olish jarayoni
+- Ma'lumotlar boshqarish jarayoni.
+- Ma’lumotlarni umulashtirish jarayoni.
+- Ma'lumotlarni qayta ishlash jarayoni.
+
+
+
+# Ingiliz adabiyotida “MIT” o’rniga qanday tushuncha ishlatiladi?
++ Data Mining.
+- Data Source.
+- Data Analyze
+- Data Mind
+
+
+
+# Pattern nima?
++ MIT vositasida ajratib olingan bilim.
+- Ma’lumotlarnig asosiy mazmuni.
+- MIT vositasida ajratib olingan ma’lumotlar to’plami.
+- Ma’lumot sarlavhasi.
+
+
+
+# МИТ ning vazifasi nima?
++ Katta hajimdagi ma’lumotlar massivlaridan ma’noga ega bo’lgan patternlarni ajratib olish.
+- Katta hajimdagi ma’lumotlar oqimidan kerakli malumotni topish.
+- Ma’lumotlarni tasniflash.
+- Ma'lumotlarni qayta ishlash.
+
+
+
+# Pattern qanday vazifani  bajaradi?
++ Qarorlar qabul qilishda, jarayonlarni nazorat qilishda, axborotni bajaruvchi va so’rovnomalarga ishlov berish vazifasini bajaradi.
+- Ma'lumotlarni tahlil qilish vazifasini bajaradi.
+- Ma’lumotlarni izlash jarayonini amalga oshirish vazifasini bajaradi.
+- Ma'lumotlarni qayta ishlash jarayonini nazorat qilish vazifasini bajaradi.
+
+
+
+# MIT amalga oshirish necha bosqichda amalga oshiriladi?
++ 6
+- 5
+- 4
+- 7
+
+
+
+# Ma’lumotlar bazalari (MB) turlari nechta?
++ 9 ta
+- 5 ta
+- 4 ta
+- 7 ta
+
+
+
+# Bilimlar bazasi ga ta’rif bering?
++ Predmet soha haqidagi natijaviy pattern (bilim) larni qanday izlash va kerakligini baholash  haqidagi bilimlar.
+- Ma’lumotlar qimmatliligini aniqlovchi bilimlar.
+- Ma’lumotlar bazasi.
+- Ma’lumotlarni turkumlash haqidagi bilimlar
+
+
+
+# ... Xarakterlashtirish, assotsiyalarni topish, klassifikatsiyalash, klaster tahlili kabi masalalarni yechishga imkon beruvchi funksional modullar asosida amalga oshiriladi?
++ Bilimlar toppish xizmati
+- Bilimlar bazasi
+- Patternlarni baholash moduli
+- MB yoki ma’lumotlar ombori server
+
+
+
+# Patternlarni baholash moduli bu -?
++ Patternlarga qiziqish va ularning foydaliligini o’lchamani hisoblashga xizmat qiladi.
+- Predmet soha haqidagi natijaviy pattern(bilim)larni qanday izlash va kerakligini baholash haqidagi bilimlar
+- Qarorlar qabul qilishda, jarayonlarni nazorat qilishda, axborotni bajaruvchi  va so’rovnomalarga ishlov berish vazifasini bajaradi
+- Ma'lumotlarni tahlil qilish vazifasini bajaradi
+
+
+
+# Qaysi qatordagi javobga ta’rif berilgan? (Bu modul MIT tizimi va foydalanuvchilar orasidagi aloqani turli formadagi namunalarni vizuallashtirishni amalga oshiradi)
++ Grafik foydalanuvchi interfeysi
+- Pattern baholash moduli
+- Bilimlar topish xizmati
+- Bilimlar bazasi
+
+
+
+# Internet tushunchasiga tarif keltirilgan qatorni toping?
++ Eng katta hajimdagi multimediyali axborotni saqlovchi ma’lumotlar bazasi
+- Ma’lumotlar ombori
+- Vizual tarmoq
+- Ma’lumotlar oqimi
+
+
+
+# Qaysi qatordagi javobga ta’rif berilgan? (fikran bog’lanishlar qoidalari X→Y  shakliga ega , X shartlari yetarli , taxminan Y shartlarini ham qoniqtiruvchi ma’lumotlar bazasidagi yozuvlarni tushunadi)
++ Fikran bog’lanish tahlili
+- Sinflash va bashoratlash
+- Klaster tahlil
+- Evolutsion tahlil
+
+
+
+# Evolutsion tahlil bu -?\
++ Vaqt davomida o’zgaruvchi obyektlar uchun trendlarni modellashtiradi va tavsiflaydi.
+- Ixtiyoriy berilgan obyektning aniq atributlari va klas belgilaridan foydalanib klasni bashoratlash uchun klaslarni tabsiflaydi va ajratadi.
+- MIT tizimi va foydalanuvchilar orasidagi aloqani turli formadagi namunalarni vizuallashtirishni amalga oshiradi
+- Ma'lumotlarni tahlil qilish vazifasini bajaradi
+
+
+
+# Axborot nazariyasi faniga qachon asos solingan?
++ 1948 yil
+- 1968 yil
+- 1995 yil
+- 1997 yil
+
+
+
+# Entropiya so’ziga to’g’ri ta’rif berilgan qatorni ko’rsating?
++ Tartibsizlik
+- Ketma-ketlik
+- Uzviylik
+- Aloqadorlik
+
+
+
+# Beys sinflashtirish usuliga qaysi qatorda to’g’ri ta’rif berilgan?
++ Statik usul bo’lib, obyektningberilgan sinfga tegishliligi ehtimolini avvaldan (apriori, ya’ni tajriba o’tkazmasdan) topish imkonini beradi.
+- Denamik usul bo’lib, obyektningberilgan sinfga tegishliligi ehtimolini avvaldan (apriori, ya’ni tajriba o’tkazmasdan) topish imkonini beradi.
+- Statik usul bo’lib faqatgina tajribalar o’tkazish yo’li bilan aniqlash imkonini beradi.
+- Denamik usul bo’lib faqatgina tajribalar o’tkazish yo’li bilan aniqlash imkonini beradi.
+
+
+
+# Bozorning savatli tahlilinig ikkinchi nomlanishi qaysi qatorda berilgan?
++ Assotsiativ bog’liqlik qoidalari
+- Sinflash va bashoratlash
+- Sinflashirish usuli
+- Klaster tahlil
+
+
+
+# Katta hajimdagi ma’lumotlar asosida amalga oshiriladi va ma’lumotlar hajmini kichraytirish, ma’lumotlar katta massivlarini ixchamlashtirish, ma’lumotlarni tahlil qilishga qulay ko’rinishga keltirish va grafik asosida ko’rsatish imkonini beradi ?
++ Klasterli tahlili
+- Evolutsion tahlili
+- Fikran bog’lanish tahlili
+- Sinflash va bashoratlash tahlili
+
+
+
+# d (xi , xj) =max | xit −xjt | Formulasi nomlanishini ko’rsating?
+1tm
++ Chebishov masofasi
+- Xemming masofasi
+- Eviklid masofasi
+- Oraliq masofasi
+
+
+
+# Malumotlarni korrelyatsion tahlili necha bosqichda amalga oshiriladi?
++ 5 ta
+- 6 ta
+- 4 ta
+- 9 ta
+
+
+
+# Vaqtli qatorlarni o’rganish (tekshirish) uchun nechta asosiy fazifalar bajariladi ?
++ 3 ta
+- 2 ta
+- ta
+- ta
+
+
+
+# O’racha o’sish tezligi kamchiliklari sonini ko’rsating?
++ 4 ta
+- 5 ta
+- 2 ta
+- 1 ta
+
+
+
+# Bilimlarni ifodalashning necha xil turi mavjud?
++ 2 xil
+- xil
+- xil
+- xil
+
+
+
+# Mantiqiy modellar asosini nimalar tashkil etadi?
++ Predikatlar hisobi
+- Mantiqiy amallar
+- Algoritmlar ketma-ketligi
+- Evristik modellar
+
+
+
+# Evristik modelning mantiqiy modeldan asosiy afzallik tomonini ko’rsating?
++ Imkoniyatlarning ko’pligi va muammoli sohaning adekvatlik bilan o’z yechimga ega bo’lishi.
+- Modellar turli xil vositalardan janlanganligi, ma’lumotlarning o’ziga xosligi.
+- Muhimlilgi yoki muammoli sohalarning bo’lakcha bo’lganligi.
+- Modellar asosini predikatlar hisobi tashkil topishidadir.
+
+
+
+# “Birinchi predikatga munosabat nomi, termenga esa argumentlar-obyektlar moc keladi” yuqorida keltirilgan ishlash prensipi qaysi qatorga to’gri keladi?
++ Mantiqiy model
+- Semantik model
+- Produksion model
+- Freym ko’rinishidagi model
+
+
+
+# Evristik modellarning mantiqiy modellardan asosiy farqi nima?
++ Modellar turli xil vositalardan janlanganligi, ma’lumotlarning o’ziga xosligi Muhimlilgi yoki muammoli sohalarning bo’lakcha bo’lgaligi.
+- Modellar asosini predikatlar hisobi tashkil topishidadir.
+- Imkoniyatlarning ko’pligi va muammoli sohaning adekvatlik bilan o’z yechimga ega bo’lishi.
+- Muhimlilgi yoki muammoli sohalarning bo’lakcha bo’lganligi.
+
+
+
+# Evrestik modellar necha xil bo’ladi?
++ 3 xil
+- xil
+- xil
+- xil
+
+
+
+# Bu tariff qaysi qatorga tegishli “Argumentlar tartibiqaralayotgan predmet soha uchun qabul qilingan predikatlar mazmuniga mos kelishi lozim”?
++ Mantiqiy modellar bilan ishlash qoidalari.
+- Evristik modellar bilan ishlash qoidalari.
+- Semantik modellar bilan ishlash qoidalari.
+- Produksion modellar bilan ishlash qoidalari.
+
+
+
+# “Predikatlar hisoblashda qo’llaniladi va shu bilan bir qatorda barcha mantiqiy ifodalar rost va yolg’on qiymatga egadir”. Bu ta’rifqaysi qatorga tegishli?
++ Mantiqiy model
+- Semantik model
+- Produksion model
+- Freym ko’rinishidagi model
+
+
+
+# Kbantorlar necha turga bo’linadi?
++ 2 turga
+- turga
+- turga
+- 3 turga
+
+
+
+# Semantic modelni bilimlar doirasida tasvirlanishini qaysi olim taklif etgan?
++ Kuillan
+- Klod Shenon
+- Beyis
+- Chebishov
+
+
+
+# Semantika termeniga to’g’ri ta’rif keltirilgan qatorni toping?
++ Ilm-fan, simvollar va obyektlar o’rtasida o’zaro aloqani o’rnatish tushiniladi.
+- Modellar turli xil vositalardan janlanganligi, ma’lumotlarning o’ziga xos bo’lishi.
+- Imkoniyatlarning ko’pligi va muammoli sohaning adekvatlik bilan o’z yechimga ega bo’lishi.
+- Vaqt davomida o’zgaruvchi obyektlar uchun trendlarni modellashtirishi va tavsiflash.
+
+
+
+# H =I,C,G  qaysi modelning formal ko’rinishi?
++ Semantik model
+- Mantiqiy model
+- Produksion model
+- Freym ko’rinishidagi model
+
+
+
+# “Dasturchi kompyuterga o’tiradi va dasturni o’zlashtiradi” bu yerda nechta obyekt bor ?
++ 3 ta
+- ta
+- ta
+- ta
+
+
+
+# Malumotlar bazasini boshqarish tizimlari nechta?
++ 9 ta
+- ta
+- 5 ta
+- 8 ta
+
+
+
+# Agar server sifatida local kompyuter ishlatilmasa ishlatilayotgan serverga qaysi sozlamalarni o’rnatishimiz zarur?
++ SQL Server va Firewall
+- SQL Server Management Studioni
+- Paradox for DOS
+- SQLite
+
+
+
+# Yangi ma’lumotlar bazasini yaratish uchun bo’g’langan serverimizning Databases bo’limida qaysi sarlavha tanlanadi?
++ New Database
+- Restore Database
+- Attach
+- Deploy data tier application
+
+
+
+# Ma’lumotlar bazasida yangi jadval yaratish uchun qaysi bo’lim tanlanadi?
++ Tables
+- Database diagrams
+- Test database
+- Views
+
+
+
+# Yangi jadval uchun parametrlar qayerda beriladi?
++ New Table
+- New File Table
+- Start PowerShell
+- Reports
+
+
+
+# Matematik modellar, sonli usullar, dasturiy vositalar va axborot texnologiyalarining emperik ma’lumotlardan kerakli axborotni toppish va ana shu axborot asosida avvaldan noma’lum, amaliyotda foydali bo’lgan va ma’lum maqsadlarga erishishga imkon beruvchi bilimlarni sintez qilish (olish) imkonini beruvchi to’plam bu-?
++ MIT
+- MB
+- MBB
+- Bilimlar bazasi
+
+
+
+# …-ning maqsadi zavonaviy axborot texnologiyalari va intelektual algoriytmlar asosida dastlabki xom ma’lumotlar to’plamidan foydalanuvchi uchun kerakli (foydali) ma’lumot (axborot olish)
++ MIT
+- MB
+- MBB
+- Semantik model
+
+
+
+# Xozirda kompaniyalar MIT bo’yicha necha turdagi ishlarni bajarish bo’yicha o’z xizmatlarini taklif qilmoqda?
++ 5 turda
+- 7 turda
+- 15 turda
+10 turda
+
+
+
+# MITni necha turkumda dasturiy vositalar asosida amalga oshirish mumkin?
++ 5 turkumda
+- 8 turkumda
+- 3 turkumda
+- 6  turkumda
+
+
+
+# a=[2:3:10] ifoda qanday elementli matritsa hosil qiladi?
++ a=[2 5 8]
+- a=[2 3 4 5 6 7 8 9 10]
+- a=[2 5 8 10]
+- a=[2 3 10]
+
+
+
+# “:” operatori bilan nxm ko’rinishidagi matritsa hosil qilish uchun qanday shart bajarilishi kerak?
++ Satr elementlar soni teng bo’lishi
+- Ustun va satr elementlar soni teng bo’lishi
+- Har qanday shartda
+- Ustun elementlar soni teng bo’lishi
+
+
+
+# MATLAB da tenglik operatori sifatidaqa qaysi belgidan foydalaniladi?
++ ==
+- :=
+- =
+- ~=
+
+
+
+# MATLAB da teng emas operatori sifatidaqa qaysi belgidan foydalaniladi?
++ ~=
+- |=
+- ?=
+- !=
+
+
+
+# A va B matritsalarni birlashtirish funksiyalari ko’rsatilgan to’liq qatorni ko’rsating
++ cat(1,A,B), cat(2,A,B), [A,B] va [A;B]
+- cat(A,B), cat(2,A,B), (A,B) va (A;B)
+- cat[1,A,B], cat[2,A,B], [A,B] va[A;B]
+- cat[1,A,B], cat[2,A,B], (A,B) va (A;B)
+
+
+
+# Savol?  Cat (1,A,B) funksiyasining vazifasi?
++ A va B matritsalarni satr ko’rinishida birlashtiradi
+- A va B matritsalarni ustun ko’rinishida birlashtiradi
+- matritsaning birinchi satrini B matritsaning birinchi satriga joylashtiradi
+- matritsaning birinchi satrini A matritsaning birinchi satriga joylashtiradi
+
+
+
+# cat(2,A,B) funksiyasining vazifasi?
++ A va B matritsalarni ustun ko’rinishida birlashtiradi
+- matritsaning birinchi satrini B matritsaning birinchi satriga joylashtiradi
+- matritsaning birinchi satrini A matritsaning birinchi satriga joylashtiradi
+- A va B matritsalarni satr ko’rinishida birlashtiradi
+
+
+
+# Bizga A va B matritsalar berilgan. [A,B] ifoda nima natija qaytaradi?
++ A va B matritsalarni ustun ko’rinishida birlashtiradi
+- va B matritsalarni satr ko’rinishida birlashtiradi
+- matritsaning birinchi satrini A matritsaning birinchi satriga joylashtiradi
+- matritsaning birinchi satrini B matritsaning birinchi satriga joylashtiradi
+
+
+
+# Bizga A va B matritsalar berilgan. [A;B] ifoda nima natija qaytaradi?
++ A va B matritsalarni satr ko’rinishida birlashtiradi
+- matritsaning birinchi satrini A matritsaning birinchi satriga joylashtiradi
+- A matritsaning birinchi satrini B matritsaning birinchi satriga joylashtiradi
+- A va B matritsalarni ustun ko’rinishida birlashtiradi
+
+
+
+# A=[1,2;3,4] va B=[5,6;7,8] lar berilgan. C=cat(1,A,B) ning natijasini ko’rsating
++ C=[1,2;3,4;5,6;7,8]
+- C=[1,2,3,4;5,6,7,8]
+- C=[1,2,3;4,5,6;7,8]
+- C=[1,2,3,4,5,6,7,8]
+
+
+
+# A=[1,2;3,4] va B=[5,6;7,8] lar berilgan. C=[A,B] ning natijasini ko’rsating
++ C=[1,2,5,6;3,4,7,8]
+- C=[1,2,3,4,5,6,7,8]
+- C=[1,2;3,4;5,6;7,8]
+- C=[1,2,3,4;5,6,7,8]
+
+
+
+# A=[1,2;3,4] va B=[5,6;7,8] lar berilgan. C=[A;B] ning natijasini ko’rsating
++ C=[1,2;3,4;5,6;7,8]
+- C=[1,2,3,4;5,6,7,8]
+- C=[1,2,3;4,5,6;7,8]
+- C=[1,2,3,4,5,6,7,8]
+
+
+
+# fliplr() funksiyasining vazifasi?
++ Berilgan matritsani vertikal o’q atrofida 1800 ga buradi
+- Berilgan matritsani gorizontal o’q atrofida 1800 ga buradi
+- Berilgan matritsani gorizontal o’q atrofida 900 ga buradi
+- Berilgan matritsani vertikal o’q atrofida 900 ga buradi
+
+
+
+# flipud() funksiyasining vazifasi?
++ Berilgan matritsani gorizontal o’q atrofida 1800 ga buradi
+- Berilgan matritsani vertikal o’q atrofida 1800 ga buradi
+- Berilgan matritsani vertikal o’q atrofida 900 ga buradi
+- Berilgan matritsani gorizontal o’q atrofida 900 ga buradi
+
+
+
+# A=[1,2,3;4,5,6;7,8,9] berilgan. B=fliplr(A) ning natijasini ko’rsating
++ B=[3,2,1;6,5,4;9,8,7]
+B=[1,2,3,4,5,6,7,8,9]
+- B=[7,8,9;4,5,6;1,2,3]
+- B=[1,2,3;4,5,6;7,8,9]
+
+
+
+# A=[1,2,3;4,5,6;7,8,9] berilgan. B=flipud(A) ning natijasini ko’rsating
++ B=[7,8,9;4,5,6;1,2,3]
+- B=[1,2,3;4,5,6;7,8,9]
+- B=[3,2,1;6,5,4;9,8,7]
+- B=[1,2,3,4,5,6,7,8,9]
+
+
+
+# rot90() funksiyasining vazifasi?
++ Berilgan matritsani soat strelkasiga qarshi 900 ga buradi
+- Berilgan matritsani gorizontal o’q atrofida 900 ga buradi
+- Berilgan matritsani vertikal o’q atrofida 900 ga buradi
+- Berilgan matritsani soat strelkasi bo’yicha 900 ga buradi
+
+
+
+# A=[1,2,3;4,5,6;7,8,9] berilgan. B=rot90(A) ning natijasini ko’rsating
++ B=[3,6,9;2,5,8;1,4,7]
+- B=[7,8,9; 4,5,6;1,2,3]
+- B=[1,2,3;4,5,6;7,8,9]
+- B=[1,2,3,4,5,6,7,8,9]
+
+
+
+# rot90(A,2) funksiyasining vazifasi?
++ A matritsani soat strelkasiga qarshi 1800 ga buradi
+- A matritsani gorizontal o’q atrofida 1800 ga buradi
+- A matritsani vertikal o’q atrofida 1800 ga buradi
+- A matritsani soat strelkasi bo’yicha 1800 ga buradi
+
+
+
+# A=[1,2,3;4,5,6;7,8,9] berilgan. B=rot90(A,2) ning natijasini ko’rsating
++ B=[9,8,7;6,5,4;3,2,1]
+- B=[1,2,3;4,5,6;7,8,9]
+- B=[3,6,9;2,5,8;1,4,7]
+- B=[7,8,9; 4,5,6;1,2,3]
+
+
+
+# Berilgan matritsani vertical o’q atrofida 1800 ga burush uchun qaysi funksiyadan foydalaniladi?
++ fliplr()
+- flipud()
+- rot90()
+- rot180()
+
+
+
+# Berilgan matritsani gorizontal o’q atrofida 1800 ga burush uchun qaysi funksiyadan foydalaniladi?
++ flipud()
+- rot90()
+- rot180()
+- fliplr()
+
+
+
+# Berilgan matritsani soat strelkasiga qarama-qarshi yo’nalishda 1800 ga burush uchun qaysi funksiyadan foydalaniladi?
++ rot90(A,2)
+- rot180(A)
+- fliplr()
+- flipud()
+
+
+
+# eye() funksiyasi qanday ko’rinishdagi matritsa hosil qiladi?
++ Аsosiy diаgonаldа 1, qolgаn elеmеntlаri 0 bo’lgаn mаtritsа hosil qilаdi
+- Qаtor, ustun va diagonal elementlаri yig’indilari tеng bo’lgаn mаtritsа hosil qiladi
+- Elementlari fаqаt nollаrdаn iborаt bo’lgаn mаtritsа hosil qiladi
+- Elеmеntlаri fаqаt 1 dаn iborаt bo’lgаn mаtritsа hosil qiladi
+
+
+
+# zeros() funksiyasi qanday ko’rinishdagi matritsa hosil qiladi?
++ Elementlari fаqаt nollаrdаn iborаt bo’lgаn mаtritsа hosil qiladi
+- Elеmеntlаri fаqаt 1 dаn iborаt bo’lgаn mаtritsа hosil qiladi
+- Аsosiy diаgonаldа 1, qolgаn elеmеntlаri 0 bo’lgаn mаtritsа hosil qilаdi
+- Qаtor, ustun va diagonal elementlаri yig’indilari tеng bo’lgаn mаtritsа hosil qiladi
+
+
+
+# ones() funksiyasi qanday ko’rinishdagi matritsa hosil qiladi?
++ Elеmеntlаri fаqаt 1 dаn iborаt bo’lgаn mаtritsа hosil qiladi
+- Аsosiy diаgonаldа 1, qolgаn elеmеntlаri 0 bo’lgаn mаtritsа hosil qilаdi
+- Qаtor, ustun va diagonal elementlаri yig’indilari tеng bo’lgаn mаtritsа hosil qiladi
+- Elementlari fаqаt nollаrdаn iborаt bo’lgаn mаtritsа hosil qiladi
+
+
+
+# magic() funksiyasi qanday ko’rinishdagi matritsa hosil qiladi?
++ Qаtor, ustun va diagonal elementlаri yig’indilari tеng bo’lgаn mаtritsа hosil qiladi
+- Elementlari fаqаt nollаrdаn iborаt bo’lgаn mаtritsа hosil qiladi
+- Elеmеntlаri fаqаt 1 dаn iborаt bo’lgаn mаtritsа hosil qiladi
+- Аsosiy diаgonаldа 1, qolgаn elеmеntlаri 0 bo’lgаn mаtritsа hosil qilаdi
+
+
+
+# Quyidagi funksiyalardan qaysi biri qаtor, ustun va diagonal elementlаri yig’indilari tеng bo’lgаn mаtritsа hosil qiladi?
++ magic()
+- zeros()
+- ones()
+- eye()
+
+
+
+# Quyidagi funksiyalardan qaysi biri аsosiy diаgonаldа 1, qolgаn elеmеntlаri 0 bo’lgаn mаtritsа hosil qilаdi?
++ eye()
+- magic()
+- zeros()
+- ones()
+
+
+
+# Quyidagi funksiyalardan qaysi biri elementlari fаqаt nollаrdаn iborаt bo’lgаn mаtritsа hosil qiladi?
++ zeros()
+- ones()
+- eye()
+- magic()
+
+
+
+# Quyidagi funksiyalardan qaysi biri elеmеntlаri fаqаt 1 dаn iborаt bo’lgаn mаtritsа hosil qiladi?
++ ones()
+- eye()
+- magic()
+- zeros()
+
+
+
+# Agar A matritsaning elementlari bo’lmasa, isempty(A) funksiyasi nima natija qaytaradi?
++ 1
+- -1
+- 2
+- 0
+
+
+
+# Agar A matritsaning elementlari bo’lsa, isempty(A) funksiyasi nima natija qaytaradi?
++ 0
+- -1
+- 1
+- 2
+
+
+
+# Berilgan matritsaning o’lchovlarini aniqlab beruvchi funksiyani ko’rsating
++ size
+- Long
+- Wenth
+- Length
+
+
+
+# Berilgan vektorning uzunligini aniqlab beruvchi funksiyani ko’rsating
++ length
+Size
+- Long
+- Wenth
+
+
+
+# A=[10:1] ifoda qanday ko’rinishdagi vector hosil qiliadi?
++ Xatolik haqida xabar beradi
+- 1 2 3 4 5 6 7 8 9 10
+- 1 3 5 7 9
+- 10 9 8 7 6 5 4 3 2 1
+
+
+
+# A=[-10:2:0] ifoda qanday ko’rinishdagi vector hosil qiliadi?
++ -10 -8 -6 -4 -2 0
+- -9 -7 -5 -3 -1
+- Xatolik haqida xabar beradi
+- -1 2 -3 -4 -5 -6 -7 -8 -9 -10
+
+
+
+# A=[1,2,3;4,5,6;7,8,9] matritsa berilgan. B= A(2,2:3) ifodaning natijasi qanday bo’ladi?
++ B=[5,6]
+- B=[5,8]
+- B=[5,6; 8,9]
+- B=[2,3;5,6]
+
+
+
+# A=[1,2,3;4,5,6;7,8,9] matritsa berilgan. B= A(2:3,2:3) ifodaning natijasi qanday bo’ladi?
++ B=[5,6; 8,9]
+- B=[2,3;5,6]
+- B=[5,6]
+- B=[5,8]
+
+
+
+# A=[1,2,3;4,5,6;7,8,9] matritsa berilgan. B= A(2,2) ifodaning natijasi qanday bo’ladi?
++ B=[5]
+- B=[8]
+Ifoda noto’g’ri tuzilgan
+- B=[2]
+
+
+
+# A=[1,2,3;4,5,6;7,8,9] matritsa berilgan. B= A(1:2,2) ifodaning natijasi qanday bo’ladi?
++ B=[2;5]
+- Ifoda noto’g’ri tuzilgan
+- B=[1,2]
+- B=[1;4]
+
+
+
+# A=[1,2,3;4,5,6;7,8,9] matritsa berilgan. B= A(2:3,1) ifodaning natijasi qanday bo’ladi?
++ B=[4;7]
+- Ifoda noto’g’ri tuzilgan
+- B=[2,3]
+- B=[4,7]
+
+
+
+# A=[1,2,3;4,5,6;7,8,9] matritsa berilgan. B= A(3,:) ifodaning natijasi qanday bo’ladi?
++ B=[7,8,9]
+- B=[7;8;9]
+- B=[3;6;9]
+- Ifoda noto’g’ri tuzilgan
+
+
+
+# A=[1,2,3;4,5,6;7,8,9] matritsa berilgan. B= A(:,3) ifodaning natijasi qanday bo’ladi?
++ B=[3;6;9]
+- B=[7;8;9]
+- Ifoda noto’g’ri tuzilgan
+- B=[7,8,9]
+
+
+
+# A=[1,2,3;4,5,6;7,8,9] matritsa berilgan. B=sum( A) ifodaning natijasi qanday bo’ladi?
++ B=12 15 18
+- B=18 15 12
+- B=15 12 18
+- B=12 18 15
+
+
+
+# sum(A) funksiyasining vazifasi?
++ A matritsa ustun elementlarining yig’indisini hisoblaydi
+- A matritsa diagonal elementlarining yig’indisini hisoblaydi
+- A matritsa elementlarining yig’indisini hisoblaydi
+- A matritsa sart elementlarining yig’indisini hisoblaydi
+
+
+
+# diag(A) funksiyaning vazifasi?
++ A matritsaning asosiy diagonal elementlarini ajratib beradi
+- A matritsaning satr elementlarini ajratib beradi
+- A matritsaning ustun elementlarini ajratib beradi
+- A matritsaning qo’shimcha diagonal elementlarini ajratib beradi
+
+
+
+# A=[1,2,3;4,5,6;7,8,9] matritsa berilgan. B=diag( A) ifodaning natijasi qanday bo’ladi?
++ B=[1;5;9]
+- B=[3;5;7]
+- B=[1;4;7]
+- B=[1,2,3]
+
+
+
+# A=[1,2,3;4,5,6;7,8,9] matritsa berilgan. B=diag(fliplr( A)) ifodaning natijasi qanday bo’ladi?
++ B=[3;5;7]
+- B=[1;4;7]
+- B=[1,2,3]
+- B=[1;5;9]
+
+
+
+# Savol?  A=[1,2,3;4,5,6;7,8,9] matritsa berilgan. B=sum(diag( A)) ifodaning natijasi qanday bo’ladi?
++ B=15
+- B=12
+- B=14
+- B=18
